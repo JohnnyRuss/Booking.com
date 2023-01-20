@@ -1,0 +1,186 @@
+@use "../../../../styles/helpers/variables/variables" as *;
+@use "../../../../styles/helpers/variables/functions" as *;
+
+$fig-w: 20rem;
+
+.hotelsRowContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .card {
+    display: flex;
+    gap: 0.75rem;
+    height: $fig-w;
+    border: 1px solid color("darkGreyC");
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+    &Fig {
+      width: $fig-w;
+      height: 100%;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+
+    &Desc {
+      width: calc(100% - $fig-w);
+    }
+  }
+
+  .cardDesc {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, max-content);
+    grid-template-rows: repeat(7, 1fr);
+    align-items: center;
+    gap: 0.5rem;
+
+    .title {
+      grid-row: 1;
+      grid-column: 1;
+      color: color("blueTintC");
+      text-transform: capitalize;
+      font-size: size("bigSize");
+      font-weight: weight("boldWeight");
+    }
+
+    .distanceFromCenter {
+      grid-column: 1;
+      grid-row: 2;
+      font-size: size("smallerSize");
+      font-weight: weight("mediumWeight");
+    }
+
+    .taxi {
+      grid-column: 1;
+      grid-row: 3;
+      background: green;
+      width: max-content;
+      padding: 0.25rem 0.5rem;
+      color: color("whiteShadeC");
+      font-size: size("smallSize");
+      border-radius: 0.3rem;
+
+      &::first-letter {
+        text-transform: capitalize;
+      }
+    }
+
+    .shortDesc {
+      grid-column: 1;
+      grid-row: 4;
+      font-weight: weight("bolderWeight");
+      font-size: size("smallSize");
+      &::first-letter {
+        text-transform: capitalize;
+      }
+    }
+
+    .rooms {
+      grid-column: 1;
+      grid-row: 5;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 0.3rem;
+      flex-wrap: wrap;
+      font-size: size("smallSize");
+
+      sup {
+        display: inline-block;
+        transform: translateX(-50%);
+        font-size: size("smallestSize");
+      }
+
+      & > span:not(:last-child):after {
+        content: " •";
+      }
+
+      & span:first-child::first-letter {
+        text-transform: capitalize;
+      }
+    }
+
+    .freeCancelation {
+      grid-column: 1;
+      grid-row: 6/8;
+      display: flex;
+      flex-direction: column;
+      font-size: size("smallSize");
+      color: green;
+
+      span:first-child {
+        font-weight: weight("bolderWeight");
+        &::first-letter {
+          text-transform: capitalize;
+        }
+      }
+
+      span:last-child {
+        font-size: size("smallerSize");
+        &::first-letter {
+          text-transform: capitalize;
+        }
+      }
+    }
+
+    .rating {
+      grid-column: 2/4;
+      grid-row: 1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      span:first-child {
+        text-transform: capitalize;
+        font-weight: weight("boldWeight");
+      }
+
+      span:last-child {
+        background: color("blueC");
+        color: color("whiteShadeC");
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.3rem;
+      }
+    }
+
+    .price {
+      grid-column: 2/4;
+      grid-row: 4/6;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      span:first-child {
+        font-weight: weight("bolderWeight");
+        font-size: size("bigSize");
+      }
+
+      span:last-child {
+        font-size: size("smallSize");
+        color: color("lighGreyC");
+
+        &::first-letter {
+          text-transform: capitalize;
+        }
+      }
+    }
+
+    [data-button-re] {
+      grid-column: 2/4;
+      grid-row: 6/8;
+      align-self: flex-end;
+    }
+  }
+}

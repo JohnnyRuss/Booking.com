@@ -1,0 +1,35 @@
+@use "../../../styles/helpers/variables/functions" as *;
+
+.button {
+  text-transform: capitalize;
+  font-weight: weight("regullarWeight");
+  font-size: size("smallSize");
+  border-radius: 0.5rem;
+
+  &.primary {
+    background: color("blueTintC");
+    padding: 0.75rem 2rem;
+    color: color("whiteShadeC");
+  }
+
+  &.secondary {
+    background: color("whiteShadeC");
+    color: color("blueC");
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  &.tertiary {
+    background: none;
+    color: color("whiteShadeC");
+    border: 1px solid color("whiteShadeC");
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  &.secondary,
+  &.tertiary {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+}

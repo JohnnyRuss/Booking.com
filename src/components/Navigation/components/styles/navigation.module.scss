@@ -1,0 +1,12 @@
+@use "../../../../styles/helpers/variables/functions" as *;
+@use "../../../../styles/helpers/variables/variables" as *;
+
+.nav {
+  background: color("blueC");
+  color: color("whiteShadeC");
+
+  &Wrapper {
+    width: min($container-width, 100%);
+    margin: 0 auto;
+  }
+}

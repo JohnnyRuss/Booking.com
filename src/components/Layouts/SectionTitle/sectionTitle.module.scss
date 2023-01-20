@@ -1,0 +1,9 @@
+@use "../../../styles/helpers/variables/functions" as *;
+
+.sectionTitle {
+  font-size: size("largeSize");
+  font-weight: weight("bolderWeight");
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  padding: 0.5rem 0;
+}

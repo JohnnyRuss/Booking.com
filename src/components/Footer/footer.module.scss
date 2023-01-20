@@ -1,0 +1,53 @@
+@use "../../styles/helpers/variables/variables" as *;
+@use "../../styles/helpers/variables/functions" as *;
+
+.footer {
+  .footerHead {
+    background: color("blueC");
+    padding: 2rem;
+    color: color("whiteShadeC");
+
+    .footerHeadWrapper {
+      width: min($container-width, 100%);
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .footerHeadList {
+      list-style: none;
+      display: flex;
+      justify-content: flex-start;
+      gap: 3rem;
+      align-self: flex-start;
+      border-top: 2px solid color("whiteShadeC");
+      padding-top: 2rem;
+      width: 100%;
+
+      li {
+        text-decoration: underline;
+        font-weight: weight("boldWeight");
+      }
+    }
+  }
+
+  .footerWrapper {
+    width: min($container-width, 100%);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+
+  .listFragment {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: size("smallSize");
+    color: color("blueC");
+  }
+}

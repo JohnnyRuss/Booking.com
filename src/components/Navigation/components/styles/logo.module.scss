@@ -1,0 +1,8 @@
+@use "../../../../styles/helpers//variables/functions" as *;
+
+.logo {
+  font-size: size("extraLargeSize");
+  text-decoration: none;
+  color: color("whiteC");
+  font-weight: weight("bolderWeight");
+}

@@ -1,0 +1,147 @@
+@use "../../../../styles/helpers/variables/functions" as *;
+
+$border-w: 3px;
+
+.navFilter {
+  align-self: flex-end;
+  height: 5rem;
+  transform: translateY(50%);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: $border-w solid orange;
+  border-radius: 0.75rem;
+  background: color("whiteC");
+  color: color("darkGreyC");
+  position: relative;
+  z-index: 99;
+
+  %modal {
+    position: absolute;
+    z-index: 999 !important;
+    top: 100%;
+    left: 0;
+    right: 0;
+    min-height: 10rem;
+    background: color("whiteC");
+  }
+
+  .inpBox {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-right: $border-w solid color("orangeC");
+    height: 100%;
+    padding: 0.2rem 0.5rem;
+
+    .iconBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 3rem;
+    }
+  }
+
+  .destination {
+    flex: 2;
+
+    input {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .checkIn {
+    position: relative;
+
+    label {
+      cursor: pointer;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+    }
+
+    .checkinModal {
+      @extend %modal;
+    }
+  }
+
+  .users {
+    position: relative;
+    cursor: pointer;
+
+    .countsBox {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 0.5rem;
+
+      &Nested {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0.35rem;
+        text-transform: capitalize;
+      }
+    }
+
+    .usersModal {
+      @extend %modal;
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      row-gap: 1rem;
+      border-bottom-left-radius: 0.75rem;
+      border-bottom-right-radius: 0.75rem;
+      padding: 0 0.75rem 1rem;
+    }
+  }
+
+  .usersModal .counterBox {
+    display: grid;
+    grid-template-columns: 6rem 1fr;
+    align-items: center;
+    justify-items: space-between;
+    column-gap: 2.5rem;
+    text-transform: capitalize;
+
+    &Label {
+      font-weight: weight("boldWeight");
+      grid-column: 1;
+    }
+
+    &ActionsBox {
+      grid-column: 2;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    &DecreaseBtn,
+    &EncreaseBtn {
+      font-size: size("bigSize");
+      width: 3rem;
+      height: 3rem;
+      background: color("blueC");
+      color: color("whiteShadeC");
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 0.25rem;
+    }
+
+    &Count {
+      font-weight: weight("boldWeight");
+    }
+  }
+
+  [data-button-re] {
+    height: 100%;
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+  }
+}

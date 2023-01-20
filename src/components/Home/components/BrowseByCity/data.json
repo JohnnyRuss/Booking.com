@@ -1,0 +1,32 @@
+[
+    {
+        "fig": "https://static01.nyt.com/images/2018/06/17/travel/17hours1/merlin_138493119_dc17f17f-96a2-4487-a9ea-214914926374-superJumbo.jpg",
+        "title": "tbilisi",
+        "id": "browse-by-city--1",
+        "count": 73
+    },
+    {
+        "fig": "https://www.myf-med.com/wp-content/uploads/2020/07/shutterstock_783832201_vgmngb.jpg",
+        "title": "moroco",
+        "id": "browse-by-city--2",
+        "count": 73
+    },
+    {
+        "fig": "https://www.introducingmadrid.com/f/espana/madrid/guia/madrid.jpg",
+        "title": "madrid",
+        "id": "browse-by-city--3",
+        "count": 73
+    },
+    {
+        "fig": "https://ktla.com/wp-content/uploads/sites/4/2022/10/GettyImages-805157508.jpg?strip=1",
+        "title": "california",
+        "id": "browse-by-city--4",
+        "count": 73
+    },
+    {
+        "fig": "https://d1e00ek4ebabms.cloudfront.net/production/ced41255-a7b3-4bbf-a156-ea652f126a1f.jpg",
+        "title": "queenstown",
+        "id": "browse-by-city--5",
+        "count": 73
+    }
+]

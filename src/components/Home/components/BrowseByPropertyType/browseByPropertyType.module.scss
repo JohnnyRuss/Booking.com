@@ -1,0 +1,83 @@
+@use "../../../../styles/helpers/variables/functions" as *;
+@use "../../../../styles/helpers/variables/variables" as *;
+
+$card-gap: 1rem;
+$desc-gap: 0.5rem;
+$card-w: calc(26rem + $card-gap + $desc-gap);
+$card-desc-h: calc(5rem + $desc-gap * 2);
+
+.browseByContainer {
+  padding: $section-pad;
+
+  .browseBySliderContainer {
+    padding: 3rem 0;
+    margin: 2rem 0;
+    width: 100%;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: $card-gap;
+    width: $card-w;
+    height: $card-w;
+    aspect-ratio: 1/1;
+    background: color("whiteC");
+    color: color("blackC");
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0px 0 12px 2px rgba(0, 0, 0, 0.3);
+    transition: transform 0.25s ease-out;
+
+    &Fig {
+      width: 100%;
+      height: calc($card-w - $card-desc-h);
+      aspect-ratio: 3/4;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        transition: transform 0.25s ease-out;
+      }
+    }
+
+    &Desc {
+      display: flex;
+      flex-direction: column;
+      gap: $desc-gap;
+      padding: 0 0.75rem $desc-gap 0.75rem;
+      height: $card-desc-h;
+
+      .title {
+        font-size: size("regullarSize");
+        text-transform: capitalize;
+        font-weight: weight("boldWeight");
+        cursor: pointer;
+
+        &:hover {
+          text-decoration: underline;
+          color: color("blueC");
+        }
+      }
+
+      .count {
+        font-size: size("smallerSize");
+      }
+    }
+  }
+
+  .card:hover {
+    transform: scale(1.1);
+
+    img {
+      transform: scale(1.15);
+    }
+  }
+
+  .card.firstCard:hover {
+    transform-origin: left;
+  }
+}

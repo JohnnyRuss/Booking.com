@@ -1,0 +1,18 @@
+@use "../../../../styles/helpers/variables/functions" as *;
+
+.navIntro {
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  .navIntroTitle {
+    font-size: size("headingSecondarySize");
+  }
+
+  .navIntroText {
+    font-size: size("bigSize");
+  }
+}

@@ -1,0 +1,12 @@
+@use "../../styles/helpers/variables/functions" as *;
+@use "../../styles/helpers/variables/variables" as *;
+
+.homeContainer {
+  background: color("whiteShadeC");
+  padding: 8rem 0 4rem 0;
+
+  .homeWrapper {
+    width: min($container-width, 100%);
+    margin: 0 auto;
+  }
+}

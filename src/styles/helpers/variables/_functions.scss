@@ -1,0 +1,15 @@
+@use "./colors" as *;
+@use "./fontSize" as *;
+@use "./fontWeight" as *;
+
+@function color($c) {
+  @return map-get($colors, $c);
+}
+
+@function size($s) {
+  @return map-get($fontSize, $s);
+}
+
+@function weight($w) {
+  @return map-get($fontWeight, $w);
+}
