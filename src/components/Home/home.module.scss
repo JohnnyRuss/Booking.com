@@ -4,6 +4,7 @@
 .homeContainer {
   background: color("whiteShadeC");
   padding: 8rem 0 4rem 0;
+  min-height: 100vh;
 
   .homeWrapper {
     width: min($container-width, 100%);

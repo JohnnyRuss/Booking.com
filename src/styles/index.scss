@@ -18,7 +18,7 @@ body {
   font-weight: 400;
   background-color: #fff;
   color: #333;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 button {
@@ -29,4 +29,11 @@ input,
 button {
   border: none;
   outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
 }

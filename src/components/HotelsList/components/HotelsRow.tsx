@@ -1,62 +1,102 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
+import { nanoid } from "@reduxjs/toolkit";
 
-import data from "./data.json";
+import {
+  selectHotelLabels,
+  selectHotelsLoadingState,
+} from "../../../store/selectors/hotelsSelector";
+import { useAppSelector } from "../../../store/hook";
+import { selectFilter } from "../../../store/selectors/filterSelectors";
 
 import styles from "./styles/hotelsRow.module.scss";
-import { Button } from "../../Layouts";
+import { Button, Spinner, RatingBox } from "../../Layouts";
 
-interface HotelsRowType {}
+const HotelsRow: React.FC = () => {
+  const data = useAppSelector(selectHotelLabels);
+  const { dateRange, users } = useAppSelector(selectFilter);
 
-const HotelsRow: React.FC<HotelsRowType> = (props) => {
+  const { loading, error } = useAppSelector(selectHotelsLoadingState);
+
   return (
     <div className={styles.hotelsRowContainer}>
-      {data.map((card, i) => (
-        <div className={styles.card} key={`card-fig--${i}`}>
-          <figure className={styles.cardFig}>
-            <img src={card.fig} alt={card.title} />
-          </figure>
-          <div className={styles.cardDesc}>
-            <h4 className={styles.title}>{card.title}</h4>
-            <span className={styles.distanceFromCenter}>
-              {card.distanceFromCenter}m from center
-            </span>
-            {card.taxi && (
-              <span className={styles.taxi}>free airport taxi</span>
-            )}
-            <p className={styles.shortDesc}>{card.shortDesc}</p>
-            <div className={styles.rooms}>
-              <Fragment key={`rooms-option--${card.fig}`}>
-                {destructureRooms(card.rooms)}
-              </Fragment>
-            </div>
-            {card.freeCancelation && (
-              <div className={styles.freeCancelation}>
-                <span>free cancelation</span>
-                <span>
-                  you can cancel later, so lock in this great price today!
-                </span>
-              </div>
-            )}
-            <div className={styles.rating}>
-              <span>
-                {card.rating > 8.5
-                  ? "excellent"
-                  : card.rating < 6
-                  ? "bad"
-                  : "normal"}
+      {loading && <Spinner type="absolute" />}
+      {!loading &&
+        !error &&
+        data.map((card, i) => (
+          <div className={styles.card} key={`card-fig--${i}`}>
+            <figure className={styles.cardFig}>
+              <img src={card.thumbnail} alt={card.name} loading="lazy" />
+            </figure>
+
+            <div className={styles.cardDesc}>
+              <h4 className={styles.title}>
+                <Link
+                  to={card._id}
+                  state={{
+                    dateRange,
+                    users,
+                  }}
+                >
+                  {card.name}
+                </Link>
+              </h4>
+
+              <span className={styles.locationAccess}>
+                {card.location.locationAccess}
               </span>
-              <span>{card.rating}</span>
-            </div>
-            <div className={styles.price}>
-              <span>{card.price}$</span>
-              {card.includesTaxesAndFees && (
-                <span>includes taxes and fees</span>
+
+              {card.minPrice.taxi && (
+                <span className={styles.taxi}>free airport taxi</span>
               )}
+
+              <p className={styles.shortDesc}>{card.description.short}</p>
+
+              <div className={styles.rooms}>
+                {card.rooms[0] && (
+                  <Fragment key={`rooms-option--${card.thumbnail}`}>
+                    {destructureRooms(card.rooms[0])}
+                  </Fragment>
+                )}
+              </div>
+
+              {card.freeCancelation && (
+                <div className={styles.freeCancelation}>
+                  <span>free cancelation</span>
+                  <span>
+                    you can cancel later, so lock in this great price today!
+                  </span>
+                </div>
+              )}
+
+              <div className={styles.ratingBox}>
+                <span className={styles.reteVerbal}>
+                  {card.location.rating}
+                </span>
+                <RatingBox rating={card.rating} />
+              </div>
+
+              <div className={styles.priceBox}>
+                <span className={styles.price}>{card.minPrice.price}$</span>
+                {card.minPrice.taxi && (
+                  <span className={styles.msg}>includes taxes and fees</span>
+                )}
+              </div>
+
+              <Button>
+                <Link
+                  to={card._id}
+                  state={{
+                    dateRange,
+                    users,
+                  }}
+                >
+                  see availability
+                </Link>
+              </Button>
             </div>
-            <Button>see availability</Button>
           </div>
-        </div>
-      ))}
+        ))}
     </div>
   );
 };
@@ -72,9 +112,9 @@ interface RoomT {
 
 function destructureRooms(data: RoomT) {
   return Object.keys(data).map((key) => {
-    if (["bathroom", "bedroom"].includes(key))
+    if (["bathroom", "bedroom", "kitchen"].includes(key))
       return (
-        <span>
+        <span key={nanoid()}>
           <span>{data[key as keyof typeof data]}</span>
           &nbsp;
           <span>{key}</span>
@@ -82,10 +122,10 @@ function destructureRooms(data: RoomT) {
       );
     else if (key === "space")
       return (
-        <span>
+        <span key={nanoid()}>
           {data[key as keyof typeof data]}m <sup>2</sup>
         </span>
       );
-    else return <span>{data[key as keyof typeof data]}</span>;
+    else return <span key={nanoid()}>{data[key as keyof typeof data]}</span>;
   });
 }

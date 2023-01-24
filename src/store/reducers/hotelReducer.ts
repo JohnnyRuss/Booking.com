@@ -1,22 +1,72 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
-import { HotelStateT } from "../../interface/reducers/hotelReducer.types";
+import {
+  HotelStateT,
+  GetHotelPropT,
+  GetHotelsPropT,
+} from "../../interface/reducers/hotelReducer.types";
+import { HotelLabelT, HotelT } from "../../interface/db/hotel.types";
 
 const initialState: HotelStateT = {
-  hotelCount: 2,
+  loadingState: {
+    loading: false,
+    error: false,
+    message: "",
+  },
+
+  hotels: [],
+  hotel: null,
 };
 
 const hotelSlice = createSlice({
   name: "hotel",
   initialState,
   reducers: {
-    increaseHotelCount(state, { payload }: PayloadAction<number>) {},
+    setLoadingError(
+      state,
+      { payload: { message } }: PayloadAction<{ message: string }>
+    ) {
+      state.loadingState = {
+        loading: false,
+        error: true,
+        message,
+      };
+    },
 
-    setIncreasedCount(state, { payload }) {
-      state.hotelCount = state.hotelCount += payload;
+    getHotels(state, { payload }: PayloadAction<GetHotelsPropT>) {
+      state.loadingState = {
+        ...state.loadingState,
+        loading: true,
+      };
+    },
+
+    setHotels(state, { payload }: PayloadAction<HotelLabelT[]>) {
+      state.hotels = payload;
+
+      state.loadingState = {
+        ...state.loadingState,
+        loading: false,
+      };
+    },
+
+    getHotel(state, { payload }: PayloadAction<GetHotelPropT>) {
+      state.loadingState = {
+        ...state.loadingState,
+        loading: true,
+      };
+    },
+
+    setHotel(state, { payload }: PayloadAction<HotelT>) {
+      state.hotel = payload;
+
+      state.loadingState = {
+        ...state.loadingState,
+        loading: false,
+      };
     },
   },
 });
 
 export default hotelSlice.reducer;
-export const { increaseHotelCount, setIncreasedCount } = hotelSlice.actions;
+export const { setLoadingError, getHotels, setHotels, getHotel, setHotel } =
+  hotelSlice.actions;

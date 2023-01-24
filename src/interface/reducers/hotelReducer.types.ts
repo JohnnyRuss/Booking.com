@@ -1,3 +1,16 @@
+import { HotelLabelT, HotelT } from "../db/hotel.types";
+
 export interface HotelStateT {
-  hotelCount: number;
+  loadingState: LoadingStateT;
+  hotels: HotelLabelT[];
+  hotel: HotelT | null;
+}
+
+export type GetHotelPropT = string;
+export type GetHotelsPropT = string;
+
+interface LoadingStateT {
+  loading: boolean;
+  error: boolean;
+  message: string;
 }

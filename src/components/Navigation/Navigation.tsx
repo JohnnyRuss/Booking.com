@@ -14,13 +14,17 @@ const Navigation: React.FC = () => {
     <nav className={styles.nav}>
       <div className={styles.navWrapper}>
         <NavMain />
-        <NavNested />
-        {pathname === "/" && (
+        {
           <>
-            <NavIntro />
-            <NavFilter />
+            {!["/register", "/login"].includes(pathname) && <NavNested />}
+            {pathname === "/" && (
+              <>
+                <NavIntro />
+                <NavFilter />
+              </>
+            )}
           </>
-        )}
+        }
       </div>
     </nav>
   );

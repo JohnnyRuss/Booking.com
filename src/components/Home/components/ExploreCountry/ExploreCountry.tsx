@@ -1,30 +1,43 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-import data from "./data.json";
+import { useAppSelector } from "../../../../store/hook";
+import { selectExploreCountry } from "../../../../store/selectors/homePageSelectors";
 
 import styles from "./exploreCountry.module.scss";
 import { SectionTitle } from "../../../Layouts";
 
-interface ExploreCountryType {}
+const ExploreCountry: React.FC = () => {
+  const data = useAppSelector(selectExploreCountry);
 
-const ExploreCountry: React.FC<ExploreCountryType> = (props) => {
   return (
     <div className={styles.exploreCountry}>
-      <SectionTitle>explore georgia</SectionTitle>
+      <SectionTitle>
+        explore
+        <Link to="/hotels" state={{ country: data.country }}>
+          {data.country}
+        </Link>
+      </SectionTitle>
       <div className={styles.cardsList}>
-        {data.map((card) => (
-          <div className={styles.card} key={card.id}>
+        {data.locations.map((card) => (
+          <Link
+            to="/hotels"
+            state={{ city: card.city }}
+            className={styles.card}
+            key={card.id}
+          >
             <figure className={styles.cardFig}>
-              <img src={card.fig} alt={card.title} />
+              <img src={card.thumbnail} alt={card.city} loading="lazy" />
             </figure>
             <div className={styles.cardDesc}>
-              <span className={styles.title}>{card.title}</span>
+              <span className={styles.title}>{card.city}</span>
+
               <span className={styles.count}>
                 <span>{card.count}</span>
                 <span>properties</span>
               </span>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

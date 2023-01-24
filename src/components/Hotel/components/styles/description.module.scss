@@ -1,0 +1,62 @@
+@use "../../../../styles/helpers/variables/functions" as *;
+
+.hotelDescription {
+  display: flex;
+  justify-content: space-between;
+  gap: 8rem;
+
+  .descriptionInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .descriptionTitle {
+      font-size: size("largeSize");
+      font-weight: weight("boldWeight");
+
+      &::first-letter {
+        text-transform: capitalize;
+      }
+    }
+  }
+
+  .descriptionLabel {
+    align-self: flex-start;
+    min-width: 25rem;
+    max-width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+    background: rgba(color("blueTintC"), 0.5);
+
+    .labelTitle {
+      font-weight: weight("boldWeight");
+
+      &::first-letter {
+        text-transform: capitalize;
+      }
+    }
+
+    .labelDescription {
+      font-size: size("smallSize");
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .priceBox {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 1rem;
+      font-size: size("bigSize");
+
+      .price {
+        font-weight: weight("bolderWeight");
+      }
+    }
+  }
+}

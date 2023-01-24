@@ -1,0 +1,31 @@
+@use "../../../../styles/helpers/variables/functions" as *;
+
+.featuresList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+
+  .featureItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+
+    .iconBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      svg {
+        font-size: 3rem;
+      }
+    }
+
+    .featureLabel {
+      font-size: size("regullarSize");
+      text-transform: capitalize;
+    }
+  }
+}

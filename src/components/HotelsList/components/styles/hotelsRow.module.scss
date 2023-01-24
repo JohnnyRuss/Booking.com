@@ -7,6 +7,7 @@ $fig-w: 20rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  position: relative;
 
   .card {
     display: flex;
@@ -51,11 +52,15 @@ $fig-w: 20rem;
       font-weight: weight("boldWeight");
     }
 
-    .distanceFromCenter {
+    .locationAccess {
       grid-column: 1;
       grid-row: 2;
       font-size: size("smallerSize");
       font-weight: weight("mediumWeight");
+
+      &::first-letter {
+        text-transform: capitalize;
+      }
     }
 
     .taxi {
@@ -89,6 +94,7 @@ $fig-w: 20rem;
       display: flex;
       justify-content: flex-start;
       align-items: center;
+      flex-wrap: wrap;
       gap: 0.3rem;
       flex-wrap: wrap;
       font-size: size("smallSize");
@@ -131,43 +137,33 @@ $fig-w: 20rem;
       }
     }
 
-    .rating {
+    .ratingBox {
       grid-column: 2/4;
       grid-row: 1;
       display: flex;
       justify-content: space-between;
       align-items: center;
 
-      span:first-child {
+      .reteVerbal {
         text-transform: capitalize;
         font-weight: weight("boldWeight");
-      }
-
-      span:last-child {
-        background: color("blueC");
-        color: color("whiteShadeC");
-        width: 3rem;
-        height: 3rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 0.3rem;
+        color: color("blueC");
       }
     }
 
-    .price {
+    .priceBox {
       grid-column: 2/4;
       grid-row: 4/6;
       display: flex;
       flex-direction: column;
       align-items: flex-end;
 
-      span:first-child {
+      .price {
         font-weight: weight("bolderWeight");
         font-size: size("bigSize");
       }
 
-      span:last-child {
+      .msg {
         font-size: size("smallSize");
         color: color("lighGreyC");
 

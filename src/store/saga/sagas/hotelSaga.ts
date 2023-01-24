@@ -1,9 +1,9 @@
 import { takeLatest } from "redux-saga/effects";
-import { showError } from "../handlers/errorHandler";
 
-import { increaseHotelCount } from "../../reducers/hotelReducer";
-import { handleIncreaseHotelCount } from "../handlers/hotelHandlers";
+import { getHotels, getHotel } from "../../reducers/hotelReducer";
+import { getHotelsHandler, getHotelHandler } from "../handlers/hotelHandlers";
 
 export default function* hotelSaga() {
-  yield takeLatest(increaseHotelCount, handleIncreaseHotelCount);
+  yield takeLatest(getHotels, getHotelsHandler);
+  yield takeLatest(getHotel, getHotelHandler);
 }

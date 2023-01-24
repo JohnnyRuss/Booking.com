@@ -1,0 +1,36 @@
+@use "../../styles/helpers/variables/functions" as *;
+
+.authContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  color: color("darkGreyC");
+
+  .authForm {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .inpField {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    .inpLabel {
+      text-transform: capitalize;
+      font-weight: weight("boldWeight");
+      font-size: size("smallSize");
+    }
+
+    .inp {
+      border: 1px solid color("darkGreyC");
+      height: 4rem;
+      border-radius: 0.5rem;
+      padding: 0 0.5rem;
+    }
+  }
+}

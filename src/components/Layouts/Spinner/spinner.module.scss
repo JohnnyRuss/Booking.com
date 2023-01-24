@@ -1,0 +1,36 @@
+@use "../../../styles/helpers/variables/functions" as *;
+
+.spinner {
+  background: rgba(299, 299, 299, 0.5);
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    font-size: 3rem;
+    fill: color("blueC");
+    animation: spin 1s linear infinite;
+  }
+
+  &.fixed {
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+
+    svg {
+      fill: color("whiteShadeC");
+    }
+  }
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

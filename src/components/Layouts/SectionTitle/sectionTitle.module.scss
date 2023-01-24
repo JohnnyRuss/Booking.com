@@ -6,4 +6,12 @@
   letter-spacing: 1px;
   text-transform: capitalize;
   padding: 0.5rem 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+
+  a:hover {
+    text-decoration: underline;
+  }
 }

@@ -1,0 +1,814 @@
+[
+    {
+        "name": "gran versalles",
+        "type": "apartment",
+        "location": {
+            "street": "covarrubias, 4",
+            "urban": "chamberi",
+            "city": "madrid",
+            "country": "spain",
+            "locationAccess": "subway access",
+            "rating": "excellent"
+        },
+        "media": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210030649.jpg?k=365c9584957a478560107fc1466804fed3add22ac795e60243220979ff82cc9d&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210030625.jpg?k=7a8a2772e408d4f44349fb6827b1f167d5ed61d5799eb6325c2da8ca4c72431a&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210023935.jpg?k=9941a78aed468e4a9d5f33bd7b9c1ceab91328baba32e23fda78c01633b1d3f4&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/171588684.jpg?k=57b691df98014b4e3c207e34c41eb3b08a9f37ac6806d57676427286ce080543&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210032803.jpg?k=cacf0b46a5cef8a06b9ce2a5803e1418845adf7ce378542a5072fc48175392e9&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210030701.jpg?k=06aedb488057cf307aaefef28120547a1947ef8e6439f437787be6f2eefd17fd&o=&hp=1"
+        ],
+        "thumbnail": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210030649.jpg?k=365c9584957a478560107fc1466804fed3add22ac795e60243220979ff82cc9d&o=&hp=1",
+        "description": {
+            "title": "",
+            "main": "You're eligible for a Genius discount at Gran Versalles! To save at this property, all you have to do is sign in.</br>Gran Hotel Versalles is in a quiet area of central Madrid, next to Alonso Martínez Metro Station. It is a classic-style hotel offering a 24-hour front desk and free Wi-Fi.</br>The Versalles is just a 5-minute walk from the vibrant Chueca district. Alonso Martínez is a major metro station and from here you can reach the Art Triangle in around 15 minutes.</br>The air-conditioned rooms at the Versalles Gran Hotel feature carpeted floors. They come with satellite TV and a private bathroom with a hairdryer.</br>The hotel’s Café Luxemburgo offers tapas and drinks throughout the day. There are various bars and restaurants in the surrounding area.</br>This is our guests' favorite part of Madrid, according to independent reviews.</br>Couples in particular like the location – they rated it 9.3 for a two-person trip.",
+            "short": "apartment with free parking and city view"
+        },
+        "label": {
+            "title": "",
+            "text": "Located in the best-rated area in Madrid, this hotel has an excellent location score of 9.3"
+        },
+        "rating": 8.4,
+        "rooms": [
+            {
+                "type": "1 room apartment",
+                "space": 30,
+                "bathroom": 1,
+                "bedroom": 1,
+                "kitchen": 1
+            }
+        ],
+        "minPrice": {
+            "price": 500,
+            "taxi": true
+        },
+        "freeCancelation": true,
+        "featured": true,
+        "features": {
+            "parking": true,
+            "airConditioning": true,
+            "privateBathroom": true,
+            "wifi": true,
+            "shower": true,
+            "minibar": true,
+            "tv": true,
+            "roomService": true,
+            "smoking": false,
+            "forDisabledGuests": true
+        }
+    },
+    {
+        "name": "ilunion alcalá norte",
+        "type": "apartment",
+        "location": {
+            "street": "san romualdo, 30",
+            "urban": "san blas",
+            "city": "madrid",
+            "country": "spain",
+            "locationAccess": "500m from center",
+            "rating": "great"
+        },
+        "media": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/227872404.jpg?k=64b5c6ceff84c3dbd05f9af530fbdffc116755fe5015ee02a75bf0d8a817e58b&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/68816089.jpg?k=00bb4f228fe8591d27b1d62771024d94a159a01c0f9cf6f0ea54ad26b80222c4&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/68816072.jpg?k=cd50f956c1321dd5cef07d29d7728bbff0f680e7a12a2865478e78bf75f33e89&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/68816013.jpg?k=1e6e478a5f03ba23a40b2d6dadae963c09da17c2365706ede91dbd2308837115&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/227872412.jpg?k=881a56b266bf160cd26bb8fb5e6e7a730599d2d578ffc3a1c59dc97b3e68e12c&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81814915.jpg?k=203261f08aaf8eaab1a4d74698927b33cd0ed8655c7ee8c9b91ae121ae094996&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/251681598.jpg?k=66a3a3d1e0d3edd8bb3dc11a5c9b2f756e53c051dea02d110d1d60d62fe0f110&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/318444106.jpg?k=407250f2f9a233e4b23c8524c0ffc0a4c8245939e37ba5f8e38c8e65ae87c91c&o=&hp=1"
+        ],
+        "thumbnail": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/68816036.jpg?k=b7f8befff00ce7958505138a5e4c5005999e0c82cc9884263341423ee1a793aa&o=&hp=1",
+        "description": {
+            "title": "",
+            "main": "You're eligible for a Genius discount at Ilunion Alcalá Norte! To save at this property, all you have to do is sign in.</br>The stylish Ilunion Alcalá Norte is located in the Madrid, in the north area, within a 10-minute drive of the IFEMA Conference Center and Madrid-Barajas Airport. It offers spacious rooms with free WiFi.</br>The Ilunion Alcalá Norte’s air-conditioned rooms come with a 43'' flat-screen TV with satellite channels, work desk, and a safe. The private bathroom comes with a hairdryer and free toiletries.</br>This hotel is officially adapted for guests with reduced mobility, accessible rooms are available on request, also for people with auditory and visual impairment.</br>The Alcalá’s restaurant offers a daily breakfast, as well as à la carte and daily menus. During the summer months, guests can enjoy their meals on the outdoor terrace. Room service is available during limited hours. There is also a special menu for celiacs and food intolerant guests.</br>One pet is allowed under availability with the hotel. Supplements per night apply. Guests should contact the hotel to check and confirm availability of this room type. Once at the property, guests will receive the rules of access, which must be read and approved.</br>The number 28 bus stops 100 m away from the property, providing easy access to Madrid city center. The Wanda Metropolitano Stadium is 1.9 mi from Ilunion Alcalá Norte.</br>This hotel is officially adapted for guests with reduced mobility.</br>Couples in particular like the location – they rated it 8.1 for a two-person trip.",
+            "short": "apartment with free parking and city view"
+        },
+        "label": {
+            "title": "highly-rated for its very comfy beds",
+            "text": "Top Location: Highly rated by recent guests (8.0)."
+        },
+        "rating": 8.6,
+        "rooms": [],
+        "minPrice": {
+            "price": 700,
+            "taxi": true
+        },
+        "freeCancelation": true,
+        "featured": true,
+        "features": {
+            "parking": true,
+            "airConditioning": true,
+            "privateBathroom": true,
+            "wifi": true,
+            "shower": false,
+            "minibar": false,
+            "tv": true,
+            "roomService": false,
+            "smoking": false,
+            "forDisabledGuests": false,
+            "petFriendly": true,
+            "restaurant": true,
+            "terrace": true,
+            "fitnessCenter": true
+        }
+    },
+    {
+        "name": "deuli house",
+        "type": "apartment",
+        "location": {
+            "street": "shella street",
+            "urban": "",
+            "city": "shela",
+            "country": "kenya",
+            "locationAccess": "",
+            "rating": "good"
+        },
+        "media": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/202333205.jpg?k=e310ec88008c9403c953965d28cb846a95e21d18275d6036f5c81c5b292f467e&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/202333208.jpg?k=ad96fce68ab232246a396bd69358fef45da2fdbea019e7e54088619981b1559e&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/202332816.jpg?k=4871638d3cb83da5600f1e9bf963611e9afe0de01ee08e330ab5379383c2d6c0&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/120672046.jpg?k=b315195373b7033dccac97a32be4e9194564aa78be0d1b2773502f6b8b6a1ba2&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/120669754.jpg?k=7bc6b5bdf58cad121efe520554a754915dd8b4908ecb9bf0de2ef75d47a84bdd&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81814915.jpg?k=203261f08aaf8eaab1a4d74698927b33cd0ed8655c7ee8c9b91ae121ae094996&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/120665050.jpg?k=8ae0087124869109216886e7f38c9d0cb501e62b1660e70792514e8865de6511&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/120066670.jpg?k=e708833206e01b684d35ffc935e8a68deae42f95d38ef91f854e1275067691f4&o=&hp=1"
+        ],
+        "thumbnail": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/202333205.jpg?k=e310ec88008c9403c953965d28cb846a95e21d18275d6036f5c81c5b292f467e&o=&hp=1",
+        "description": {
+            "title": "",
+            "main": "Located a few steps from Shela Beach, Deuli House provides accommodations with a garden, a terrace and room service for your convenience.</br>Buffet and à la carte breakfast options are available every morning at the apartment.</br>Manda Beach is a few steps from Deuli House, while Mnarani House is a 4-minute walk away.Deuli House has been welcoming Booking.com guests since Nov 24, 2017</br>Distance in property description is calculated using © OpenStreetMap",
+            "short": "guest house with room service"
+        },
+        "label": {
+            "title": "",
+            "text": ""
+        },
+        "rating": 7.5,
+        "rooms": [],
+        "minPrice": {
+            "price": 100,
+            "taxi": false
+        },
+        "freeCancelation": true,
+        "featured": false,
+        "features": {
+            "parking": false,
+            "airConditioning": false,
+            "privateBathroom": true,
+            "wifi": false,
+            "shower": false,
+            "minibar": false,
+            "tv": false,
+            "roomService": true,
+            "smoking": true,
+            "forDisabledGuests": false,
+            "petFriendly": false,
+            "restaurant": false,
+            "terrace": false,
+            "fitnessCenter": false
+        }
+    },
+    {
+        "name": "peponi hotel lamu",
+        "type": "apartment",
+        "location": {
+            "street": "",
+            "urban": "shela lamu",
+            "city": "shela",
+            "country": "kenya",
+            "locationAccess": "",
+            "rating": "excellent"
+        },
+        "media": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/244020293.jpg?k=418c414604853849795da2e896e962680640e64654d7433c247671df9df8eb39&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/244019990.jpg?k=1bb31ba8441bc321f02b4a80141ac1bdcc087c928256e2f1bc9d1536a7f00ee4&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/248891480.jpg?k=a2f44ef938a593f0ebfa0caf26f1d816a5f078a049881cf41ea53ba30812c567&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/244020076.jpg?k=d25033fa4994e009df8d26e07d285a4697e1cba44a0f6bd3381252f89359a27d&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/274661867.jpg?k=d0d3d7207bf70286872d4b03d2fe5ad578146a4b5683ed3e5cb722f8aeadbdba&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/274661874.jpg?k=b628c5ae3d81816dcb9333352a3aaf1bfc2d499a7d3f3def437d003f0b53a3f3&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/244020083.jpg?k=21017ac460fc94cab34f3b0e427265d67d267051d0221b57ef66565c93341eac&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/244020089.jpg?k=1ecba75038bc6931ca69ec1dbf433913de74bd349ecc7b2472988a45f84a38de&o=&hp=1"
+        ],
+        "thumbnail": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/244020089.jpg?k=1ecba75038bc6931ca69ec1dbf433913de74bd349ecc7b2472988a45f84a38de&o=&hp=1",
+        "description": {
+            "title": "",
+            "main": "Facing the beachfront, Peponi Hotel Lamu - Kenya offers 4-star accommodations in Shela and features an outdoor swimming pool, garden and terrace. Among the facilities of this property are a restaurant, free shuttle service and room service, along with free WiFi. The property provides a concierge service, a tour desk and currency exchange for guests.</br>At the hotel, rooms are equipped with a desk. Featuring a private bathroom with a shower and free toiletries, certain units at Peponi Hotel Lamu - Kenya also provide guests with a sea view. At the accommodation every room comes with bed linen and towels.</br>A à la carte, Full English/Irish or vegetarian breakfast is served at the property.</br>The area is popular for skiing, and ski equipment rental is available at this 4-star hotel.</br>Popular points of interest near Peponi Hotel Lamu - Kenya include Manda Beach, Shela Beach and Mnarani House.</br>Peponi Hotel Lamu - Kenya has been welcoming Booking.com guests since Oct 31, 2020</br>Distance in property description is calculated using © OpenStreetMap",
+            "short": "pet friendly apartment with ocean view"
+        },
+        "label": {
+            "title": "Ski-to-door",
+            "text": "Top Location: Highly rated by recent guests (9.4). </br> Full English/Irish, Vegetarian, Vegan, Halal, Gluten-free"
+        },
+        "rating": 8.8,
+        "rooms": [],
+        "minPrice": {
+            "price": 400,
+            "taxi": true
+        },
+        "freeCancelation": true,
+        "featured": true,
+        "features": {
+            "parking": false,
+            "airConditioning": false,
+            "privateBathroom": true,
+            "wifi": true,
+            "shower": false,
+            "minibar": false,
+            "tv": false,
+            "roomService": false,
+            "smoking": false,
+            "forDisabledGuests": false,
+            "petFriendly": true,
+            "restaurant": true,
+            "terrace": true,
+            "fitnessCenter": false,
+            "familyRooms": false,
+            "garden": false,
+            "oceanView": true
+        }
+    },
+    {
+        "name": "comfortable house on marjanishvili",
+        "type": "apartment",
+        "location": {
+            "street": "107 Davit Aghmashenebeli Avenue",
+            "urban": "chugureti",
+            "city": "tbilisi",
+            "country": "georgia",
+            "locationAccess": "subway access",
+            "rating": "excellent"
+        },
+        "media": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/182514691.jpg?k=19cc64e335796bfb24a8550e687ef4674c7bfb72a3d8c8dd0c271e4648295464&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/182514578.jpg?k=73675c76ec2623f8d815c0dfc28af024df59fbb535703e82b255f0cf585f40d8&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/182520559.jpg?k=98672051ddd8b0341c85574bf72ef9a4344f0939aa296008083483d23cbd2b4c&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/182520416.jpg?k=c9f4439db1420f544b7d5c0239d263eb24ed3fe81d3cb9d7744e64f329bebf6b&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/182842804.jpg?k=28018b1216ae321e962491fadd38f44b341d60ee694c0375b87c55783a95aa1d&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/182515437.jpg?k=8139d8f8eaf8f2d0634bf2580b94ab620f9dca65146f0505bc9308757041ea8c&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/182530202.jpg?k=0e3957801447ed029a200f788c7f98838236ff9448aad2e7f4519716b78dcfe4&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/182515302.jpg?k=9dac735e3b737bd9f6bd8c025ff51b2321ede856b4f4ce994d7c15bcc7201231&o=&hp=1"
+        ],
+        "thumbnail": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/182514976.jpg?k=d27f638689f15bc0741641c84a643115d21336f28d9e234aa8021d3b30a098d0&o=&hp=1",
+        "description": {
+            "title": "",
+            "main": "You're eligible for a Genius discount at Comfortable House on Marjanishvili! To save at this property, all you have to do is sign in.</br>Located in Tbilisi, 1.9 km from Tbilisi Opera and Ballet Theatre, Comfortable House on Marjanishvili provides accommodations with a garden, free WiFi, a shared kitchen, and a shared lounge. This apartment has free private parking and room service.</br>The air-conditioned apartment is composed of 2 separate bedrooms, a living room, a fully equipped kitchen with a fridge and oven, and 1 bathroom. Towels and bed linen are provided in the apartment.</br>The apartment has a grill. A car rental service is available at Comfortable House on Marjanishvili.</br>Popular points of interest near the accommodation include Tbilisi Concert Hall, Tbilisi Central Train Station and Tbilisi Circus. The nearest airport is Tbilisi International, 16.1 km from Comfortable House on Marjanishvili, and the property offers a paid airport shuttle service.</br>This is our guests' favorite part of Tbilisi, according to independent reviews.Comfortable House on Marjanishvili has been welcoming Booking.com guests since Dec 24, 2018</br>Distance in property description is calculated using © OpenStreetMap",
+            "short": "apartment with free parking, air coditioning and city view"
+        },
+        "label": {
+            "title": "Ski-to-door",
+            "text": "Located in the top-rated area in Tbilisi City, this property has an excellent location score of 9.8!. </br> Free private parking"
+        },
+        "rating": 9.7,
+        "rooms": [],
+        "minPrice": {
+            "price": 400,
+            "taxi": false
+        },
+        "freeCancelation": true,
+        "featured": false,
+        "features": {
+            "parking": true,
+            "airConditioning": true,
+            "privateBathroom": true,
+            "wifi": true,
+            "shower": false,
+            "minibar": false,
+            "tv": true,
+            "roomService": false,
+            "smoking": false,
+            "forDisabledGuests": false,
+            "petFriendly": false,
+            "restaurant": false,
+            "terrace": false,
+            "fitnessCenter": false,
+            "familyRooms": false,
+            "garden": false,
+            "oceanView": false
+        }
+    },
+    {
+        "name": "entire flat with city skyline view - two bedrooms",
+        "type": "apartment",
+        "location": {
+            "street": "19 Pirosmani street",
+            "urban": "",
+            "city": "batumi",
+            "country": "georgia",
+            "locationAccess": "near the bus station",
+            "rating": "great"
+        },
+        "media": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/310828378.jpg?k=f811e5d3e812c50621f97f761feacbc0f1bc587b4b8da1a325c4291978128af4&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/310828341.jpg?k=22908655369f1ff8d491af4cc1e7ef8ea4aa6972ebba8d19178f8df65aaf2be7&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/310828193.jpg?k=1e6e7c1597c5a26009fe6c709a5f951d0021ea45502c592207e88bc9b5aad684&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/310828229.jpg?k=6a601c9b89219a1c30665e9912176647e4e41b2ae4411e47cd310e67178b9eba&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/310828280.jpg?k=3f3c1ae16dffd4839509b55349533f65a893a0a6f647903c709fa9bf021cb439&o=&hp=1"
+        ],
+        "thumbnail": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/310828811.jpg?k=50dca8a0ed11b847e80fe331f605f2cccb65c5082025c2c27ca63485fe462e90&o=&hp=1",
+        "description": {
+            "title": "",
+            "main": "Offering city views, Entire flat with city skyline view - two bedrooms is a property located in Batumi, a 11-minute walk from Batumi Beach and 4.5 km from Ali and Nino Monument. This beachfront property has a balcony and free private parking.</br>This air-conditioned apartment is equipped with 2 bedrooms, a flat-screen TV, a dining area, a kitchen with a fridge, and a living room.</br>Batumi Train Station is 7.1 km from the apartment, while Gonio Fortress is 9.7 km from the property. The nearest airport is Batumi International Airport, 4 km from Entire flat with city skyline view - two bedrooms.</br>Entire flat with city skyline view - two bedrooms has been welcoming Booking.com guests since Jul 28, 2021</br>Distance in property description is calculated using © OpenStreetMap",
+            "short": "apartment with free parking, air coditioning and sea view"
+        },
+        "label": {
+            "title": "Ski-to-door",
+            "text": "Top Location: Highly rated by recent guests (8.8). </br> Free Private Parking Available On Site"
+        },
+        "rating": 9.7,
+        "rooms": [],
+        "minPrice": {
+            "price": 400,
+            "taxi": false
+        },
+        "freeCancelation": true,
+        "featured": false,
+        "features": {
+            "parking": true,
+            "airConditioning": true,
+            "privateBathroom": true,
+            "wifi": true,
+            "shower": false,
+            "minibar": false,
+            "tv": true,
+            "roomService": false,
+            "smoking": false,
+            "forDisabledGuests": false,
+            "petFriendly": false,
+            "restaurant": false,
+            "terrace": false,
+            "fitnessCenter": false,
+            "familyRooms": false,
+            "garden": false,
+            "oceanView": false
+        }
+    },
+    {
+        "name": "apartment katya",
+        "type": "apartment",
+        "location": {
+            "street": "sherif khimshiashvili street 1 16 Entranse 3, Floor 11, Flat 8",
+            "urban": "",
+            "city": "batumi",
+            "country": "georgia",
+            "locationAccess": "near the bus station",
+            "rating": "excellent"
+        },
+        "media": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/205639246.jpg?k=4bbea2e04d091d025bc6d02cf9e458222e30e51083994d5cfb094de5e1ace182&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/205639249.jpg?k=674b731af5562cc18cf6f903261728e18bc476130309c39adba25158de64618f&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/205639255.jpg?k=82438eb6bac70740ed02a0c0b6a9c2091fa76b03c730a412675e6515462c834d&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/205639257.jpg?k=f9d662b363a9ec2c76b978695e7e5c3aa6ba272157c94fdeda4343df0523659b&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/205637740.jpg?k=028c0bd4abd2f3d6972d37369c275595fc65f4402587c9b99d5415a7f89c8ff7&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/205637762.jpg?k=1fccf45ba155b30adb1d1124b1ad640a044a5e9ea8e11989cae92b5ffadcba0c&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/205637771.jpg?k=34f0cdd29ab0551085fad089d38aa928b8518d783fa92bebb44e6a11394025c5&o=&hp=1"
+        ],
+        "thumbnail": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/205638035.jpg?k=97b18ed21284f3e3edd24daf4a95e2af7143a6bac1721ee35da0054c6be0f5c0&o=&hp=1",
+        "description": {
+            "title": "",
+            "main": "Featuring a balcony with city views, a garden and a restaurant, Apartment Katya can be found in Batumi, close to Batumi Beach and 3.4 km from Ali and Nino Monument. This beachfront property has free WiFi.</br>This air-conditioned apartment features 2 bedrooms, a cable flat-screen TV, a dining area, a kitchen with a fridge, and a living room. Towels and bed linen are featured in the apartment.</br>Both a bicycle rental service and a car rental service are available at the apartment, while cycling can be enjoyed nearby.</br>Batumi Train Station is 6.8 km from Apartment Katya, while Gonio Fortress is 10.3 km away. The nearest airport is Batumi International, 5 km from the accommodation, and the property offers a paid airport shuttle service.</br>Apartment Katya has been welcoming Booking.com guests since Jul 22, 2016</br>Distance in property description is calculated using © OpenStreetMap",
+            "short": "apartment with free parking, terrace and sea view"
+        },
+        "label": {
+            "title": "",
+            "text": "Top Location: Highly rated by recent guests (10.0). </br> Free Parking Available On Site"
+        },
+        "rating": 9.2,
+        "rooms": [],
+        "minPrice": {
+            "price": 300,
+            "taxi": false
+        },
+        "freeCancelation": true,
+        "featured": false,
+        "features": {
+            "parking": true,
+            "airConditioning": true,
+            "privateBathroom": true,
+            "wifi": true,
+            "shower": false,
+            "minibar": false,
+            "tv": true,
+            "roomService": false,
+            "smoking": false,
+            "forDisabledGuests": false,
+            "petFriendly": false,
+            "restaurant": false,
+            "terrace": true,
+            "fitnessCenter": false,
+            "familyRooms": false,
+            "garden": false,
+            "oceanView": false
+        }
+    },
+    {
+        "name": "redco, new gudauri, twins",
+        "type": "resort",
+        "location": {
+            "street": "New Gudauri, block Tweens, 2 floor, #222, 4702",
+            "urban": "",
+            "city": "gudauri",
+            "country": "georgia",
+            "locationAccess": "",
+            "rating": "great"
+        },
+        "media": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/372638706.jpg?k=cb052037fa1f3017e29886b016f96f0a4cc29814d1ac7f359c57bcc88ecc1c34&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/372638882.jpg?k=5939f5f719086f059c343672b1c4e7946ef9ede55e0ec5639868b563ee39c5c3&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/372638933.jpg?k=960f8b554da9dcc6e48bdcfb959e750b9c267e9c57bfa4c5122b0348c81ea244&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/290735903.jpg?k=976b64d3dc800e786df98b6710313ec2104a247038ec87864b931af4a262899f&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/372638855.jpg?k=b2ce10c0c04fee346a5d0809b4a8b5e5617e0b668d7ccc1621c30a62c674921a&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/372638889.jpg?k=4f0004a9c37cc7449e028af67647dfcc18bf929af194a168c922ec952d0d9458&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/372638851.jpg?k=7dbd6dae7ab647ddb1868117136a3158f1cd4ece8c0d7c305751fbe3f097d95b&o=&hp=1"
+        ],
+        "thumbnail": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/372638851.jpg?k=7dbd6dae7ab647ddb1868117136a3158f1cd4ece8c0d7c305751fbe3f097d95b&o=&hp=1",
+        "description": {
+            "title": "",
+            "main": "Redco, New Gudauri, Twins is located in Gudauri. Providing free WiFi, the property also has a restaurant, a bar and a casino.</br>The apartment has 1 bedroom, 1 bathroom, bed linen, towels, a flat-screen TV with cable channels, a dining area, a fully equipped kitchenette, and a balcony with mountain views.</br>Speaking English, Georgian and Russian, staff at the reception can help you plan your stay.</br>Ski-to-door access and ski storage space are provided at the apartment, and guests can go skiing in the surrounding areas.</br>The nearest airport is Vladikavkaz International Airport, 104.6 km from Redco, New Gudauri, Twins.</br>Redco, New Gudauri, Twins has been welcoming Booking.com guests since Mar 13, 2021</br>Distance in property description is calculated using © OpenStreetMap",
+            "short": "apartment with free parking and mountains view"
+        },
+        "label": {
+            "title": "Ski-to-door",
+            "text": "Top Location: Highly rated by recent guests (8.8). </br> Free Parking Available On Site."
+        },
+        "rating": 8,
+        "rooms": [],
+        "minPrice": {
+            "price": 300,
+            "taxi": false
+        },
+        "freeCancelation": true,
+        "featured": false,
+        "features": {
+            "parking": true,
+            "airConditioning": true,
+            "privateBathroom": true,
+            "wifi": true,
+            "shower": false,
+            "minibar": false,
+            "tv": true,
+            "roomService": false,
+            "smoking": false,
+            "forDisabledGuests": false,
+            "petFriendly": false,
+            "restaurant": true,
+            "terrace": true,
+            "fitnessCenter": false,
+            "familyRooms": false,
+            "garden": false,
+            "oceanView": false
+        }
+    },
+    {
+        "name": "GRAF kazbegi",
+        "type": "resort",
+        "location": {
+            "street": "M.Kostava str #4, 4700",
+            "urban": "",
+            "city": "kazbegi",
+            "country": "georgia",
+            "locationAccess": "",
+            "rating": "excellent"
+        },
+        "media": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/377785743.jpg?k=dec3c0dcf6a46d7e02b884996b8cc489077ba798d708ba512e4d21ddd90d9ae7&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/377780916.jpg?k=544a671cc9c24943276358da4a35ba05454bb21d14eef7bb7593d46629a99f29&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/377827357.jpg?k=0fa75598dadd8c3e7a224d84417d92fac5a4176b32f31eeaf07b76b9dda88426&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/377647449.jpg?k=b5dd077eca5ac56fa63a97778afa1e32c887eb3e35ea283187b4ebdd926fb9c0&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/377845839.jpg?k=3451c947b5cacd97d4096437d80102e2d35ca3f6899c34cd92a77ad7daa39dbc&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/377786061.jpg?k=bd5481ecaa8f7efc83716aa0b477c270c90030fafae2631cfeb914de6c0a94ee&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/377827099.jpg?k=8cfa0a87f8cc0448a8b2f46f08a0838e5819cb37a6fb11e76415f64a9a12aba9&o=&hp=1"
+        ],
+        "thumbnail": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/377794498.jpg?k=8a5ffd70813de9c5f3027252b4f535fa8c6bd0bcfd595af1529d409b686a56fb&o=&hp=1",
+        "description": {
+            "title": "",
+            "main": "You're eligible for a Genius discount at GRAF Kazbegi! To save at this property, all you have to do is sign in.</br>Located in Kazbegi, 48.3 km from Republican Spartak Stadium, GRAF Kazbegi provides accommodations with a garden and free private parking. The property has a 24-hour front desk, airport transportation, room service and free WiFi.</br>The private bathroom is equipped with a shower, free toiletries and a hairdryer. All rooms feature bed linen.</br>The daily breakfast offers buffet, Italian or American options.</br>The nearest airport is Vladikavkaz International Airport, 72.4 km from the hotel.</br>This is our guests' favorite part of Kazbegi, according to independent reviews.</br>Couples in particular like the location – they rated it 9.7 for a two-person trip.",
+            "short": "apartment with free parking and mountains view"
+        },
+        "label": {
+            "title": "Ski-to-door",
+            "text": "Located in the best-rated area in Kazbegi, this hotel has an excellent location score of 9.6. </br> Italian, American, Buffet. </br> Free private parking available at the hotel"
+        },
+        "rating": 9.6,
+        "rooms": [],
+        "minPrice": {
+            "price": 300,
+            "taxi": false
+        },
+        "freeCancelation": true,
+        "featured": true,
+        "features": {
+            "parking": true,
+            "airConditioning": true,
+            "privateBathroom": true,
+            "wifi": true,
+            "shower": false,
+            "minibar": false,
+            "tv": true,
+            "roomService": false,
+            "smoking": false,
+            "forDisabledGuests": false,
+            "petFriendly": false,
+            "restaurant": true,
+            "terrace": true,
+            "fitnessCenter": false,
+            "familyRooms": false,
+            "garden": false,
+            "oceanView": false
+        }
+    },
+    {
+        "name": "park residence forest view",
+        "type": "resort",
+        "location": {
+            "street": "21A Aghmashenebli Street Park residence",
+            "urban": "Block B, Floor 4, Apartment 69",
+            "city": "bakuriani",
+            "country": "georgia",
+            "locationAccess": "",
+            "rating": "excellent"
+        },
+        "media": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/288480484.jpg?k=59974d7791e2b777b4526cc9d3cb424ca0970b6f57aa5991288526a4113c4536&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/288480482.jpg?k=2def284e33cfe4cb5c7785ae73b54aa6349c6482afe335fc2ef32628dc885066&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/288480472.jpg?k=5ebcdc91e73572b8bf1baf504fcb142037c49771aafc2b7c5a267e3196b245c0&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/288480479.jpg?k=f8f16edc58becc830cb13ed874fb5ea3df3f9d18391f9de881afe1f6db54eadf&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/288480481.jpg?k=dc7723cd176afa627300e822295b3d30b64b6de3c2d360dd81b85cebb6073f8e&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/288480476.jpg?k=b31e154832cc0f1b0530f4ab038fb8bd5c3382af250c0437c55b757305e15741&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/231216962.jpg?k=61d8d2d7fecc5c3106cda182bedba8e4c6b432a4fba9524f7dd44026803a170e&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/288480471.jpg?k=98d3d991a1f3a3c37b3f0a56c96e22af528eed16987963dc9fc5d198de2e75c9&o=&hp=1"
+        ],
+        "thumbnail": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/288480484.jpg?k=59974d7791e2b777b4526cc9d3cb424ca0970b6f57aa5991288526a4113c4536&o=&hp=1",
+        "description": {
+            "title": "",
+            "main": "Featuring a garden and a terrace, Park Residence Forest View has accommodations in Bakuriani with free WiFi and garden views. This apartment provides accommodations with a balcony.</br>The apartment comes with 1 separate bedroom, 1 bathroom, a fully equipped kitchen with a dining area and fridge, and a living room with a flat-screen TV.</br>Skiing is possible within the area and the apartment offers ski storage space.</br>The nearest airport is Shirak International, 152.9 km from Park Residence Forest View, and the property offers a paid airport shuttle service.",
+            "short": "gust house with free parking, restaurant and forest view"
+        },
+        "label": {
+            "title": "Ski-to-door",
+            "text": "Top Location: Highly rated by recent guests (10.0). </br> Free Parking Available On Site"
+        },
+        "rating": 8,
+        "rooms": [],
+        "minPrice": {
+            "price": 150,
+            "taxi": false
+        },
+        "freeCancelation": true,
+        "featured": false,
+        "features": {
+            "parking": true,
+            "airConditioning": true,
+            "privateBathroom": true,
+            "wifi": true,
+            "shower": false,
+            "minibar": false,
+            "tv": true,
+            "roomService": false,
+            "smoking": false,
+            "forDisabledGuests": false,
+            "petFriendly": false,
+            "restaurant": true,
+            "terrace": true,
+            "fitnessCenter": false,
+            "familyRooms": false,
+            "garden": false,
+            "oceanView": false
+        }
+    },
+    {
+        "name": "stella di mare beach hotel & spa",
+        "type": "resort",
+        "location": {
+            "street": "Naama Bay, 14211",
+            "urban": "",
+            "city": "sharm el sheikh",
+            "country": "egypt",
+            "locationAccess": "",
+            "rating": "excellent "
+        },
+        "media": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81552240.jpg?k=dfc6753624352520a18eb56ff22579c6c6920b6dbed1cc504ddf101ff55b074c&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/4070844.jpg?k=09f0df189e793c2cfdda97f0feb9f7f15b2fc783a7a8d1c6de143548b91fc48c&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/358683907.jpg?k=0188aa1cfcfa1ebcb7c916bf82610d30375d21c3a01e159343f7c929fa72ddc5&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/358681487.jpg?k=70aa1feb0618058bd43b24db88706afd5a92ff4797b2d521416e34c562ef77d7&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81552844.jpg?k=87288025a0c32ff1ed02dca54862f1ad7bfc56e1bbd169ab3222cb4c9b1e5e7f&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/81815957.jpg?k=31f2938b36a121b825488b40f0f79a5feced9389f0e3975e078f93275cb17c23&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/124920267.jpg?k=42d724ff676799cbd082785ce3f8ce9751446b44db41643920993b96068c882a&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/288480471.jpg?k=98d3d991a1f3a3c37b3f0a56c96e22af528eed16987963dc9fc5d198de2e75c9&o=&hp=1"
+        ],
+        "thumbnail": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/124920267.jpg?k=42d724ff676799cbd082785ce3f8ce9751446b44db41643920993b96068c882a&o=&hp=1",
+        "description": {
+            "title": "Stay in the heart of Sharm El Sheikh",
+            "main": "You're eligible for a Genius discount at Stella Di Mare Beach Hotel & Spa! To save at this property, all you have to do is sign in.</br>This luxurious 5-star resort is located on a private beach at scenic Na'ama Bay’s entrance. The resort offers 3 gourmet restaurants, state-of-the-art dove training and a 600 m2 spa.</br>Stella Di Mare’s modern, spacious rooms have large windows and plenty of natural light. Each features a private outdoor terrace or balcony, some with sweeping views of the Red Sea. In-room amenities include satellite LCD TV and all-day room service.</br>Stella Di Mare’s lagoon-style outdoor swimming pool is surrounded by a waterfall and tropical gardens. Guests can snorkel in coral reefs located directly off of the resort’s beach. Evening entertainment is offered nightly.</br>La Terrazza serves candlelit dinners at its outdoor, sea-facing terrace. Fresh Mediterranean cuisine is available at Stella Di Mare’s Corallo Rosso restaurant. Italian cuisine is on offer at La Scogliera.</br>The islands of Ras Mohammed National Park are 9.9 mi from the hotel. Stella Di Mare Beach Hotel & Spa is located a 20-minute drive away from Sharm el-Sheikh International Airport. A free shuttle service to Naama Bay is offered.</br>This is our guests' favorite part of Sharm El Sheikh, according to independent reviews.</br>Couples in particular like the location – they rated it 9.1 for a two-person trip.",
+            "short": "apartment with free parking, restaurant and ocean view"
+        },
+        "label": {
+            "title": "",
+            "text": "Located in the real heart of Sharm El Sheikh, this property has an excellent location score of 8.9!. </br> Want a great night's sleep? This property was highly rated for its very comfy beds."
+        },
+        "rating": 8.8,
+        "rooms": [],
+        "minPrice": {
+            "price": 400,
+            "taxi": true
+        },
+        "freeCancelation": true,
+        "featured": false,
+        "features": {
+            "parking": true,
+            "airConditioning": true,
+            "privateBathroom": true,
+            "wifi": true,
+            "shower": false,
+            "minibar": false,
+            "tv": true,
+            "roomService": false,
+            "smoking": false,
+            "forDisabledGuests": false,
+            "petFriendly": false,
+            "restaurant": true,
+            "terrace": true,
+            "fitnessCenter": false,
+            "familyRooms": false,
+            "garden": false,
+            "oceanView": false
+        }
+    },
+    {
+        "name": "kissimmee area pool home",
+        "type": "villa",
+        "location": {
+            "street": "Maingate West Area",
+            "urban": "Celebration",
+            "city": "orlando",
+            "country": "united states",
+            "locationAccess": "",
+            "rating": "great"
+        },
+        "media": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/115108269.jpg?k=81c4ac90f677e02ff73496d41fb44faf087d14eaac9435bb809686c169d66094&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/121601597.jpg?k=4bff2552e93fcb2752924b35420490d24c23bfa266f65f33da2ea5ecaa919ec8&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/115466619.jpg?k=0776d58e6ec518f4c34de4999b92d21f6ff987e626c4b3539b89be90902234ee&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/115108259.jpg?k=a024d84c6fce6cdf8bbc0e4d9249423020e01ffd4cd1745d74dfcc6b76f30276&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/115108262.jpg?k=cae634c44659c1447331e5f27ad9f4d87b71f30e3bf031d2589414443ca71a7a&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/115108286.jpg?k=8cd8e6cf64d278b4d15e76fd35b15ca4eaf2e6b5c6f4acbfd0ed23ef9202a3b1&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/115108295.jpg?k=3a6302e3f0fc322a6d36aa826ab3d71d27094a4ef6d3956c6dc60379955d78b7&o=&hp=1"
+        ],
+        "thumbnail": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/115108269.jpg?k=81c4ac90f677e02ff73496d41fb44faf087d14eaac9435bb809686c169d66094&o=&hp=1",
+        "description": {
+            "title": "",
+            "main": "You're eligible for a Genius discount at Kissimmee Area Pool Home! To save at this property, all you have to do is sign in.</br>Located in the Celebration district of Orlando, Kissimmee Area Pool Home has accommodations with a private pool and free WiFi. This vacation home provides accommodations with a terrace.</br>The air-conditioned vacation home is composed of 4 separate bedrooms, a living room, a fully equipped kitchen with a fridge and oven, and 2 bathrooms. Towels and bed linen are available in the vacation home.</br>Disney's Blizzard Beach Water Park is 6.4 km from the vacation home, while Disney's Animal Kingdom is 6.4 km from the property. The nearest airport is Orlando International Airport, 32.2 km from Kissimmee Area Pool Home.</br>Kissimmee Area Pool Home has been welcoming Booking.com guests since Oct 5, 2017",
+            "short": "villa with free parking and swimming pool"
+        },
+        "label": {
+            "title": "",
+            "text": "Top Location: Highly rated by recent guests (8.5) </br> Free Parking Available On Site"
+        },
+        "rating": 8.5,
+        "rooms": [],
+        "minPrice": {
+            "price": 350,
+            "taxi": false
+        },
+        "freeCancelation": true,
+        "featured": false,
+        "features": {
+            "parking": true,
+            "airConditioning": true,
+            "privateBathroom": true,
+            "wifi": true,
+            "shower": false,
+            "minibar": false,
+            "tv": true,
+            "roomService": false,
+            "smoking": false,
+            "forDisabledGuests": false,
+            "petFriendly": false,
+            "restaurant": true,
+            "terrace": true,
+            "fitnessCenter": false,
+            "familyRooms": false,
+            "garden": false,
+            "oceanView": false
+        }
+    },
+    {
+        "name": "appartement chalet la merlerie",
+        "type": "cabins",
+        "location": {
+            "street": "354 chemin impérial,",
+            "urban": "",
+            "city": "morzine",
+            "country": "france",
+            "locationAccess": "",
+            "rating": "great"
+        },
+        "media": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/164232478.jpg?k=1864c52b7a1749f04f2d67418999bba52a3a427c0e45e78f5cf81c5ed983c5e8&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/164232540.jpg?k=a30e240cb9652f4b2f1eb94c8c92dc353fb598aa0fcddc8acc0ed3dfcc537627&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/164232529.jpg?k=7adcc50664c1c3f62b3d47d872420d4db42d8679eeb8c70df0fb1a2c0587f1a3&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/332111078.jpg?k=7b7fbf75940c4663d19311a94ec2b67143e9477f2b1b3907da8e23d288426ae8&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/297495954.jpg?k=fcc9905d23c205641ae66ae77788877852b9a3920da5a1a3a0fb602c6374c51b&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/204375949.jpg?k=7ce28ce06e8514ad658249a94cb86e6250989b88aef2329719eb5b641bafd50f&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/164232525.jpg?k=51b3145ffa3a11242fab3841a0d91750adcf81f203d233b69c6ce90082a7c89f&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/164232526.jpg?k=6d7e5983c2664d2fb2e3416bce2239feb7d2602a1f5f9ef294bbc15777adae15&o=&hp=1"
+        ],
+        "thumbnail": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/332111078.jpg?k=7b7fbf75940c4663d19311a94ec2b67143e9477f2b1b3907da8e23d288426ae8&o=&hp=1",
+        "description": {
+            "title": "",
+            "main": "Boasting garden views, Appartement Chalet La Merlerie provides accommodations with a garden and a balcony, around 1.4 mi from Morzine Ski School. Featuring free private parking, the apartment is in an area where guests can engage in activities such as hiking and skiing.</br>The apartment features 2 bedrooms, a flat-screen TV with cable channels, an equipped kitchen with a dishwasher and a microwave, a washing machine, and 1 bathroom with a shower.</br>The apartment has a sun terrace, along with ski storage space. There is also a bike storage garage equipped with a pressure washer.</br>The nearest airport is Meythet Airport, 52 mi from Appartement Chalet La Merlerie.",
+            "short": "cabin with mountains view"
+        },
+        "label": {
+            "title": "",
+            "text": "Top Location: Highly rated by recent guests (8.5) </br> Free Parking Available On Site"
+        },
+        "rating": 9.4,
+        "rooms": [],
+        "minPrice": {
+            "price": 250,
+            "taxi": false
+        },
+        "freeCancelation": true,
+        "featured": false,
+        "features": {
+            "parking": true,
+            "airConditioning": true,
+            "privateBathroom": true,
+            "wifi": true,
+            "shower": false,
+            "minibar": false,
+            "tv": true,
+            "roomService": false,
+            "smoking": false,
+            "forDisabledGuests": false,
+            "petFriendly": false,
+            "restaurant": true,
+            "terrace": true,
+            "fitnessCenter": false,
+            "familyRooms": false,
+            "garden": false,
+            "oceanView": false
+        }
+    },
+    {
+        "name": "fully serviced grand villa luxury time phuket SHA plus",
+        "type": "vacation homes",
+        "location": {
+            "street": "130/46 moo 2 cherngtalay thalang",
+            "urban": "",
+            "city": "bang tao beach",
+            "country": "thailand",
+            "locationAccess": "",
+            "rating": "great"
+        },
+        "media": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/120911789.jpg?k=4cc83a5b6f287a082edd6b3c6dde170636c074b483466428be7f1310dd0081b3&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/44116855.jpg?k=01de1d155a2eec708df4528a88f30e57bea033de1f56730dd95bd4549dd9cccf&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/44114887.jpg?k=d39ec34824e13fce35a0649969e4534fe8bccbda7621deeda4223c7110516157&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/44114872.jpg?k=c40ab6efdb8b95790ab6638a478e6808508d94443c5b4668a01f943fa82365b4&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/44116866.jpg?k=45f8d4c6572e5b8f1ac9bd63d6cf3084550c9247d64aeb8fbdaaf4f8f47493d9&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/44116682.jpg?k=77652385003d828e04b0d376c04a5503141d1aafa67a6202cfe0e5df85cb6be0&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/44116637.jpg?k=07938e6f2cc9dac57f736a9e07ed83d6aa49067f15068a0712d9cfc4cd65667d&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/44114847.jpg?k=0f8dc0f34245ca9c92797dcf1db6e840643f7dba0a34b1d5d19e33e20b01a088&o=&hp=1"
+        ],
+        "thumbnail": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/120911789.jpg?k=4cc83a5b6f287a082edd6b3c6dde170636c074b483466428be7f1310dd0081b3&o=&hp=1",
+        "description": {
+            "title": "",
+            "main": "You're eligible for a Genius discount at Fully Serviced Grand Villa Luxury Time Phuket SHA Plus! To save at this property, all you have to do is sign in.</br>Located on a hill overlooking the Surin Beach area, Grand Villa 'Luxury Time' Phuket is a stunning 6-bedroom residence with a private infinity pool. It features a modern design with luxurious interiors and a rooftop terrace that offers sea views. Free WiFi is available.</br>The beach, restaurants and shops are within a 10-minute drive and it is a 45-minute drive from Phuket International Airport. A free airport transfer is provided.</br>This fully-furnished villa features multiple living and lounging areas, a large dining table and an equipped kitchen with all the necessities. Extras include a washing machine, air conditioning and flat-screen TVs. The private bathrooms come with free toiletries and shower. Some bathroom have a bathtub.</br>Guests staying at this property can make arrangements for grocery deliveries, a daily maid service and other services. Free parking is available.",
+            "short": "home with free parking, terrace and swimming pool"
+        },
+        "label": {
+            "title": "",
+            "text": "Top Location: Highly rated by recent guests (8.5) </br> Free Parking Available On Site"
+        },
+        "rating": 9.4,
+        "rooms": [],
+        "minPrice": {
+            "price": 1000,
+            "taxi": true
+        },
+        "freeCancelation": false,
+        "featured": false,
+        "features": {
+            "parking": true,
+            "airConditioning": true,
+            "privateBathroom": true,
+            "wifi": true,
+            "shower": false,
+            "minibar": false,
+            "tv": true,
+            "roomService": false,
+            "smoking": false,
+            "forDisabledGuests": false,
+            "petFriendly": false,
+            "restaurant": true,
+            "terrace": true,
+            "fitnessCenter": false,
+            "familyRooms": false,
+            "garden": false,
+            "oceanView": false
+        }
+    }
+]
