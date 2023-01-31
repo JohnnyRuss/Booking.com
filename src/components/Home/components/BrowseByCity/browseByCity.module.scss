@@ -1,11 +1,21 @@
 @use "../../../../styles/helpers/variables/functions" as *;
 @use "../../../../styles/helpers/variables/variables" as *;
+@use "../../../../styles/helpers/variables/media" as *;
 
 .browseByCity {
   display: grid;
   grid-template: 25rem 30rem / repeat(6, 1fr);
   gap: 1.2rem;
   padding: $section-pad;
+
+  @include media-960 {
+    grid-template: 20rem 20rem / repeat(6, 1fr);
+    padding: $section-pad-tab;
+  }
+
+  @include media-680 {
+    grid-template: repeat(3, 20rem) / 1fr;
+  }
 
   .browseByCityItem {
     position: relative;
@@ -54,6 +64,13 @@
         justify-content: flex-start;
         align-items: center;
         gap: 0.3rem;
+      }
+    }
+
+    @include media-680 {
+      &:nth-child(4),
+      &:nth-child(5) {
+        display: none;
       }
     }
   }

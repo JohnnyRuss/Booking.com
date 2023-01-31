@@ -16,19 +16,19 @@ const NavMain: React.FC<NavMainType> = (props) => {
       <div className={styles.navActions}>
         {!["/register", "/login"].includes(pathname) && (
           <>
-            <span>PLN</span>
-            <span>F</span>
-            <span className={styles.questions}>
+            <span className={styles.extra}>PLN</span>
+            <span className={styles.extra}>F</span>
+            <span className={`${styles.questions} ${styles.extra}`}>
               <AiOutlineQuestionCircle />
             </span>
             <Button type="tertiary">list your property</Button>
           </>
         )}
         <Button type="secondary">
-          <Link to="/register">register</Link>
+          <Link to="">register</Link>
         </Button>
         <Button type="secondary">
-          <Link to="/login">sign in</Link>
+          <Link to="">sign in</Link>
         </Button>
       </div>
     </div>

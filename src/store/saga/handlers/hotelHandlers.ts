@@ -4,15 +4,22 @@ import { showError } from "./errorHandler";
 import {
   GetHotelPropT,
   GetHotelsPropT,
+  GetHotelRoomsPropT,
 } from "../../../interface/reducers/hotelReducer.types";
 
 import {
   setLoadingError,
+  setRoomsLoadingError,
   setHotels,
   setHotel,
+  setRooms,
 } from "../../reducers/hotelReducer";
 
-import { getHotelsQuery, getHotelQuery } from "../api/hotelQueries";
+import {
+  getHotelsQuery,
+  getHotelQuery,
+  getHotelRoomsQuery,
+} from "../api/hotelQueries";
 
 export function* getHotelsHandler({ payload }: { payload: GetHotelsPropT }) {
   try {
@@ -39,6 +46,26 @@ export function* getHotelHandler({ payload }: { payload: GetHotelPropT }) {
       error,
       location: "getHotelHandler",
       setter: setLoadingError,
+      setterParams: {
+        message: "",
+      },
+    });
+  }
+}
+
+export function* getHotelRoomsHandler({
+  payload,
+}: {
+  payload: GetHotelRoomsPropT;
+}) {
+  try {
+    const { data } = yield call(getHotelRoomsQuery, payload);
+    yield put(setRooms(data));
+  } catch (error: any) {
+    yield showError({
+      error,
+      location: "getHotelRoomsHandler",
+      setter: setRoomsLoadingError,
       setterParams: {
         message: "",
       },

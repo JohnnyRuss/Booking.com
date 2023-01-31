@@ -2,12 +2,14 @@
 @use "../../../../styles/helpers/variables/functions" as *;
 
 .hotel {
+  position: relative;
+
   .wrapper {
     width: min($container-width, 100%);
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    padding: 2rem 0 8rem 0;
+    padding: 2rem 1rem 8rem 1rem;
   }
 }

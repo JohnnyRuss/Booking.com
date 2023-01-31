@@ -1,5 +1,6 @@
 @use "../../../../styles/helpers/variables/variables" as *;
 @use "../../../../styles/helpers/variables/functions" as *;
+@use "../../../../styles/helpers/variables/media" as *;
 
 $border-r: 0.5rem;
 $border-w: 2px;
@@ -11,12 +12,25 @@ $anime: $anime-ms linear forwards;
 .exploreCountry {
   padding: $section-pad;
 
+  @include media-960 {
+    padding: $section-pad-tab;
+  }
+
   .cardsList {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 2rem;
     padding: 4rem 0;
+
+    @include media-1280 {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+    @include media-680 {
+      padding: 2rem 0 0 0; 
+    }
   }
 
   %ps {
@@ -32,6 +46,7 @@ $anime: $anime-ms linear forwards;
     $card-h: calc($fig-h + $desc-h);
 
     flex: 1;
+    min-width: 20rem;
     height: 20rem;
     border-radius: $border-r;
     position: relative;
@@ -106,6 +121,22 @@ $anime: $anime-ms linear forwards;
         align-items: center;
         gap: 0.3rem;
       }
+    }
+
+    @include media-1280 {
+      width: 25rem;
+      flex: none;
+    }
+
+    @include media-680 {
+      &:nth-child(5),
+      &:nth-child(6) {
+        display: none;
+      }
+    }
+
+    @include media-480 {
+      width: 100%;
     }
   }
 }

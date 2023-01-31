@@ -1,0 +1,106 @@
+@use "../../../../styles/helpers/variables/functions" as *;
+@use "../../../../styles/helpers/variables/variables" as *;
+@use "../../../../styles/helpers/components.scss" as *;
+
+.reserveWindow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .closeBtn {
+    background: color("blackC");
+    color: color("whiteC");
+    font-size: size("largeSize");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+
+  [data-button-re] {
+    width: 100%;
+  }
+
+  .reserveModal {
+    width: 32rem;
+    padding: 1rem;
+    position: relative;
+    max-height: calc(100vh - 10rem);
+    min-height: 15rem;
+    background: color("whiteC");
+    border-radius: 1rem;
+    overflow: auto;
+    @include scrollBar;
+    box-shadow: 0px 00px 15px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  .modalHeading {
+    font-weight: weight("bolderWeight");
+    font-size: size("bigSize");
+  }
+
+  .roomsList {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .roomBox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .roomInfo {
+    width: calc(100% - 5rem);
+
+    .roomTitle {
+      font-weight: weight("boldWeight");
+      text-transform: capitalize;
+    }
+
+    .roomMaxPeople,
+    .roomFeatures {
+      font-size: size("smallSize");
+    }
+
+    .roomMaxPeople {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      span:first-child:first-letter {
+        text-transform: capitalize;
+      }
+    }
+
+    .roomPrice {
+      font-weight: weight("boldWeight");
+      font-size: size("smallSize");
+
+      &::before {
+        content: "Price: ";
+      }
+      &::after {
+        content: "$";
+      }
+    }
+
+    .rooms {
+      font-size: size("smallerSize");
+    }
+  }
+}

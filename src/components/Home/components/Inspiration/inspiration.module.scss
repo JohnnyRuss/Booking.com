@@ -1,14 +1,27 @@
 @use "../../../../styles/helpers/variables/variables" as *;
 @use "../../../../styles/helpers/variables/functions" as *;
+@use "../../../../styles/helpers/variables/media" as *;
 
 .inspiration {
   padding: $section-pad;
+
+  @include media-960 {
+    padding: $section-pad-tab;
+  }
 
   .inspirationsList {
     padding: 4rem 0;
     display: grid;
     grid-template: 30rem 25rem / repeat(6, 1fr);
     gap: 1.2rem;
+
+    @include media-960 {
+      grid-template: 20rem 20rem / repeat(6, 1fr);
+    }
+
+    @include media-680 {
+      grid-template: repeat(3, 20rem) / 1fr;
+    }
   }
 
   .inspirationsListItem {
@@ -49,6 +62,13 @@
 
       .description {
         font-size: size("smallSize");
+      }
+    }
+
+    @include media-680 {
+      &:nth-child(4),
+      &:nth-child(5) {
+        display: none;
       }
     }
   }

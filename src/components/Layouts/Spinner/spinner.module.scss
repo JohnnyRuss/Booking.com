@@ -1,14 +1,16 @@
 @use "../../../styles/helpers/variables/functions" as *;
 
-.spinner {
-  background: rgba(299, 299, 299, 0.5);
-  position: absolute;
+%abs {
   z-index: 99;
+  height: 100vh;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  height: 100vh;
+}
+
+.spinner {
+  background: rgba(299, 299, 299, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,12 +22,24 @@
   }
 
   &.fixed {
-    background: rgba(0, 0, 0, 0.6);
     position: fixed;
+    @extend %abs;
+    background: rgba(0, 0, 0, 0.6);
 
     svg {
       fill: color("whiteShadeC");
     }
+  }
+
+  &.absolute {
+    position: absolute;
+    @extend %abs;
+  }
+
+  &.inline {
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
   }
 }
 

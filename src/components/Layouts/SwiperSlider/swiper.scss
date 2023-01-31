@@ -1,5 +1,11 @@
+@use "../../../styles/helpers/variables/media" as *;
+
 .thumbs-swiper-main .swiper-wrapper {
   display: flex;
   justify-content: center;
   gap: 2rem;
+
+  @include media-480 {
+    gap: 1rem;
+  }
 }

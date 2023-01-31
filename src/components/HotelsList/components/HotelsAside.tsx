@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 import { formatDate, generateHotelQuery } from "../../../lib";
-import { useCalendar, useHotelsQuery, userFilter } from "../../../hooks";
+import { useCalendar, useHotelsQuery } from "../../../hooks";
 
 import styles from "./styles/hotelsAside.module.scss";
 import { Button, Calendar } from "../../Layouts";

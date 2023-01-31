@@ -13,6 +13,7 @@ interface DescriptionType {
   label: HotelLabelType;
   minPrice: HotelPriceT;
   daysToStay: number;
+  setOpenReserve: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const Description: React.FC<DescriptionType> = ({
@@ -20,6 +21,7 @@ const Description: React.FC<DescriptionType> = ({
   label,
   minPrice,
   daysToStay,
+  setOpenReserve,
 }) => {
   return (
     <div className={styles.hotelDescription}>
@@ -42,7 +44,9 @@ const Description: React.FC<DescriptionType> = ({
           </span>
           <span>({daysToStay ? daysToStay : 1} night)</span>
         </span>
-        <Button>reserve or book now</Button>
+        <Button onClick={() => setOpenReserve(true)}>
+          reserve or book now
+        </Button>
       </div>
     </div>
   );

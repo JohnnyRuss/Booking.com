@@ -1,0 +1,25 @@
+@use "../../../../styles/helpers/variables/functions" as *;
+
+.roomNumbers {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  width: 5rem;
+
+  .roomNumberField {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &.unAvailable {
+      opacity: 0.5;
+    }
+
+    .roomNumberFieldNum {
+      font-size: size("smallestSize");
+    }
+  }
+}

@@ -1,5 +1,6 @@
 @use "../../../../styles/helpers/variables/functions" as *;
 @use "../../../../styles/helpers/variables/variables" as *;
+@use "../../../../styles/helpers/variables/media" as *;
 
 .nav {
   background: color("blueC");
@@ -8,5 +9,9 @@
   &Wrapper {
     width: min($container-width, 100%);
     margin: 0 auto;
+
+    @include media-1280 {
+      padding: 0 1rem;
+    }
   }
 }

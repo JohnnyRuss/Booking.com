@@ -1,5 +1,6 @@
 @use "../../../../styles/helpers/variables/variables" as *;
 @use "../../../../styles/helpers/variables/functions" as *;
+@use "../../../../styles/helpers/variables/media" as *;
 
 $fig-w: 20rem;
 
@@ -9,6 +10,10 @@ $fig-w: 20rem;
   gap: 2rem;
   position: relative;
 
+  @include media-680 {
+    width: 100%;
+  }
+
   .card {
     display: flex;
     gap: 0.75rem;
@@ -17,6 +22,7 @@ $fig-w: 20rem;
     padding: 1rem;
     border-radius: 0.5rem;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background: color("whiteC");
 
     &Fig {
       width: $fig-w;
@@ -33,6 +39,24 @@ $fig-w: 20rem;
 
     &Desc {
       width: calc(100% - $fig-w);
+    }
+
+    @include media-1280 {
+      flex-direction: column;
+      height: max-content;
+
+      &Fig {
+        width: 100%;
+        height: 20rem;
+      }
+
+      &Desc {
+        width: 100%;
+      }
+    }
+
+    @include media-680 {
+      width: 100%;
     }
   }
 
@@ -84,32 +108,6 @@ $fig-w: 20rem;
       font-weight: weight("bolderWeight");
       font-size: size("smallSize");
       &::first-letter {
-        text-transform: capitalize;
-      }
-    }
-
-    .rooms {
-      grid-column: 1;
-      grid-row: 5;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 0.3rem;
-      flex-wrap: wrap;
-      font-size: size("smallSize");
-
-      sup {
-        display: inline-block;
-        transform: translateX(-50%);
-        font-size: size("smallestSize");
-      }
-
-      & > span:not(:last-child):after {
-        content: " •";
-      }
-
-      & span:first-child::first-letter {
         text-transform: capitalize;
       }
     }
@@ -177,6 +175,54 @@ $fig-w: 20rem;
       grid-column: 2/4;
       grid-row: 6/8;
       align-self: flex-end;
+    }
+
+    @include media-960 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .title {
+        order: 1;
+      }
+
+      .ratingBox {
+        order: 2;
+        gap: 0.5rem;
+      }
+
+      .priceBox {
+        order: 3;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .taxi {
+        order: 4;
+      }
+
+      .locationAccess {
+        order: 5;
+      }
+
+      .shortDesc {
+        order: 6;
+      }
+
+      .rooms {
+        order: 7;
+      }
+
+      .freeCancelation {
+        order: 8;
+      }
+
+      [data-button-re] {
+        order: 9;
+        width: 100%;
+        padding: 1rem 0;
+      }
     }
   }
 }

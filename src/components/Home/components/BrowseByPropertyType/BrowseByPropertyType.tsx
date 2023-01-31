@@ -18,23 +18,23 @@ const responsive = {
     slidesToSlide: 3,
   },
   largeDesktop: {
-    breakpoint: { max: 1920, min: 1580 },
+    breakpoint: { max: 1920, min: 1160 },
     items: 4,
     slidesToSlide: 2,
   },
   desktop: {
-    breakpoint: { max: 1580, min: 1024 },
-    items: 4,
-    slidesToSlide: 2,
+    breakpoint: { max: 1160, min: 880 },
+    items: 3,
+    slidesToSlide: 1,
   },
   tablet: {
-    breakpoint: { max: 1024, min: 464 },
+    breakpoint: { max: 880, min: 560 },
     items: 2,
     slidesToSlide: 2,
   },
   mobile: {
-    breakpoint: { max: 464, min: 0 },
-    items: 2,
+    breakpoint: { max: 560, min: 0 },
+    items: 1,
     slidesToSlide: 1,
   },
 };

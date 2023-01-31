@@ -1,20 +1,32 @@
 import { useAppDispatch } from "../../store/hook";
-import { getHotels, getHotel } from "../../store/reducers/hotelReducer";
+import {
+  getHotels,
+  getHotel,
+  getRooms,
+  resetHotels,
+} from "../../store/reducers/hotelReducer";
 import {
   GetHotelPropT,
   GetHotelsPropT,
+  GetHotelRoomsPropT,
 } from "../../interface/reducers/hotelReducer.types";
 
 export default function useHotelsQuery() {
   const dispatch = useAppDispatch();
 
-  function getHotelsQuery(prop: GetHotelsPropT) {
-    dispatch(getHotels(prop));
-  }
+  const getHotelsQuery = (prop: GetHotelsPropT) => dispatch(getHotels(prop));
 
-  function getHotelQuery(param: GetHotelPropT) {
-    dispatch(getHotel(param));
-  }
+  const getHotelQuery = (param: GetHotelPropT) => dispatch(getHotel(param));
 
-  return { getHotelsQuery, getHotelQuery };
+  const getHotelsRoomsQuery = (params: GetHotelRoomsPropT) =>
+    dispatch(getRooms(params));
+
+  const handleRestHotels = () => dispatch(resetHotels());
+
+  return {
+    getHotelsQuery,
+    getHotelQuery,
+    getHotelsRoomsQuery,
+    handleRestHotels,
+  };
 }

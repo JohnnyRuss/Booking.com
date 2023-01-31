@@ -1,0 +1,25 @@
+.destructuredRoomsContainer {
+  grid-column: 1;
+  grid-row: 5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+  font-size: size("smallSize");
+
+  sup {
+    display: inline-block;
+    transform: translateX(-50%);
+    font-size: size("smallestSize");
+  }
+
+  & > span:not(:last-child):after {
+    content: " •";
+  }
+
+  & span:first-child::first-letter {
+    text-transform: capitalize;
+  }
+}

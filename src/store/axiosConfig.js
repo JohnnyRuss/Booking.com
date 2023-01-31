@@ -1,11 +1,7 @@
 import axios from "axios";
-
-const privateQuery = axios.create({
-  baseURL: "",
-  withCredentials: true,
-});
+import { getAPI_Endpoint } from "../lib";
 
 export const axiosQuery = axios.create({
-  baseURL: "http://localhost:4000/api/v1",
+  baseURL: getAPI_Endpoint(),
   withCredentials: true,
 });

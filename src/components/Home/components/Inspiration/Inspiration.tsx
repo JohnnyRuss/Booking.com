@@ -28,7 +28,7 @@ const Inspiration: React.FC<InspirationType> = (props) => {
             <div className={styles.inspirationsListItemDesc}>
               <span className={styles.title}>{card.title}</span>
               <p className={styles.description}>
-                {card.intro ? card.intro.slice(0, 150).concat("...") : ""}
+                {card.intro ? card.intro.slice(0, 100).concat("...") : ""}
               </p>
             </div>
           </Link>

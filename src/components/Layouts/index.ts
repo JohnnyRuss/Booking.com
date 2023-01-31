@@ -6,3 +6,4 @@ export { default as ParagraphGenerator } from "./ParagraphGenerator/ParagraphGen
 export { default as Spinner } from "./Spinner/Spinner";
 export { default as RatingBox } from "./RatingBox/RatingBox";
 export { default as SwiperSlider } from "./SwiperSlider/SwiperSlider";
+export { default as DestructureRooms } from "./DestructureRooms/DestructureRooms";

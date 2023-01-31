@@ -41,14 +41,14 @@ const SwiperSlider: React.FC<SwiperSliderType> = ({
 
         <Swiper
           spaceBetween={50}
-          slidesPerView={1}
-          navigation
-          initialSlide={initialSlide}
-          className={styles.mainSlider}
           thumbs={{
             swiper:
               thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
           }}
+          slidesPerView={1}
+          navigation
+          initialSlide={initialSlide}
+          className={styles.mainSlider}
         >
           {media.map((fig, i) => (
             <SwiperSlide
@@ -63,8 +63,8 @@ const SwiperSlider: React.FC<SwiperSliderType> = ({
         </Swiper>
 
         <Swiper
-          onSwiper={setThumbsSwiper}
           watchSlidesProgress
+          onSwiper={setThumbsSwiper}
           spaceBetween={10}
           slidesPerView={10}
           className={`${styles.thumbSlider} thumbs-swiper-main`}

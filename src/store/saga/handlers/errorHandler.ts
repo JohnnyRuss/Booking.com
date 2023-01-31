@@ -56,3 +56,11 @@ export function* triggerError(loadMs: number = 1000) {
     }, loadMs);
   });
 }
+
+export function* triggerLoading(loadingMs: number = 1000) {
+  yield new Promise((resolve, _) => {
+    setTimeout(() => {
+      resolve(true);
+    }, loadingMs);
+  });
+}

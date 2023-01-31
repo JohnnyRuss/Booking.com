@@ -1,10 +1,19 @@
 @use "../../styles/helpers/variables/functions" as *;
 @use "../../styles/helpers/variables/variables" as *;
+@use "../../styles/helpers/variables/media" as *;
 
 .homeContainer {
   background: color("whiteShadeC");
   padding: 8rem 0 4rem 0;
   min-height: 100vh;
+
+  @include media-960 {
+    padding: 6rem 0 3rem 0;
+  }
+
+  @include media-680 {
+    padding: 6rem 0 0 0;
+  }
 
   .homeWrapper {
     width: min($container-width, 100%);

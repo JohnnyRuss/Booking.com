@@ -1,5 +1,6 @@
 @use "../../styles/helpers/variables/variables" as *;
 @use "../../styles/helpers/variables/functions" as *;
+@use "../../styles/helpers/variables/media" as *;
 
 .footer {
   .footerHead {
@@ -30,6 +31,10 @@
         text-decoration: underline;
         font-weight: weight("boldWeight");
       }
+
+      @include media-960 {
+        flex-direction: column;
+      }
     }
   }
 
@@ -39,7 +44,11 @@
     display: flex;
     justify-content: space-between;
     gap: 2rem;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
+
+    @include media-680 {
+      flex-direction: column;
+    }
   }
 
   .listFragment {

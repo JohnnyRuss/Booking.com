@@ -4,8 +4,9 @@ import {
   HotelStateT,
   GetHotelPropT,
   GetHotelsPropT,
+  GetHotelRoomsPropT,
 } from "../../interface/reducers/hotelReducer.types";
-import { HotelLabelT, HotelT } from "../../interface/db/hotel.types";
+import { HotelLabelT, HotelT, RoomT } from "../../interface/db/hotel.types";
 
 const initialState: HotelStateT = {
   loadingState: {
@@ -14,8 +15,15 @@ const initialState: HotelStateT = {
     message: "",
   },
 
+  roomsLoadingState: {
+    loading: false,
+    error: false,
+    message: "",
+  },
+
   hotels: [],
   hotel: null,
+  rooms: [],
 };
 
 const hotelSlice = createSlice({
@@ -23,6 +31,17 @@ const hotelSlice = createSlice({
   initialState,
   reducers: {
     setLoadingError(
+      state,
+      { payload: { message } }: PayloadAction<{ message: string }>
+    ) {
+      state.loadingState = {
+        loading: false,
+        error: true,
+        message,
+      };
+    },
+
+    setRoomsLoadingError(
       state,
       { payload: { message } }: PayloadAction<{ message: string }>
     ) {
@@ -49,6 +68,10 @@ const hotelSlice = createSlice({
       };
     },
 
+    resetHotels(state) {
+      state.hotels = [];
+    },
+
     getHotel(state, { payload }: PayloadAction<GetHotelPropT>) {
       state.loadingState = {
         ...state.loadingState,
@@ -64,9 +87,34 @@ const hotelSlice = createSlice({
         loading: false,
       };
     },
+
+    getRooms(state, { payload }: PayloadAction<GetHotelRoomsPropT>) {
+      state.roomsLoadingState = {
+        ...state.roomsLoadingState,
+        loading: true,
+      };
+    },
+
+    setRooms(state, { payload }: PayloadAction<RoomT[]>) {
+      state.rooms = payload;
+
+      state.roomsLoadingState = {
+        ...state.roomsLoadingState,
+        loading: false,
+      };
+    },
   },
 });
 
 export default hotelSlice.reducer;
-export const { setLoadingError, getHotels, setHotels, getHotel, setHotel } =
-  hotelSlice.actions;
+export const {
+  setLoadingError,
+  getHotels,
+  setHotels,
+  resetHotels,
+  getHotel,
+  setHotel,
+  getRooms,
+  setRooms,
+  setRoomsLoadingError,
+} = hotelSlice.actions;

@@ -1,5 +1,6 @@
 @use "../../../../styles/helpers/variables/variables" as *;
 @use "../../../../styles/helpers/variables/functions" as *;
+@use "../../../../styles/helpers/variables/media" as *;
 
 .article {
   min-height: 100vh;
@@ -10,7 +11,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 2.5rem 0 4rem 0;
+    padding: 2.5rem 1rem 4rem 1rem;
   }
 
   .articleTitle {

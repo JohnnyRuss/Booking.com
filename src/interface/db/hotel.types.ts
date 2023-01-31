@@ -84,3 +84,38 @@ export interface HotelFeaturesT {
   garden?: boolean;
   oceanView?: boolean;
 }
+
+////////////
+
+export interface RoomT {
+  rooms: RoomsT;
+  _id: string;
+  hotel: string;
+  title: string;
+  price: number;
+  maxPeople: number;
+  roomsNumbers: RoomsNumberT[];
+  createdAt: string;
+  updatedAt: string;
+  __v: number;
+}
+
+export interface RoomsNumberT {
+  number: number;
+  unAvailableDates: UnAvailableDateT[];
+  _id: string;
+}
+
+interface UnAvailableDateT {
+  start: string;
+  end: string;
+  _id: string;
+}
+
+interface RoomsT {
+  type: string;
+  space: number;
+  bathroom: number;
+  bedroom: number;
+  kitchen: number;
+}

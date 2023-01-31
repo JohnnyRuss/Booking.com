@@ -1,18 +1,35 @@
 @use "../../../../styles/helpers/variables/functions" as *;
 @use "../../../../styles/helpers/variables/variables" as *;
+@use "../../../../styles/helpers/variables/media" as *;
 
 $card-gap: 1rem;
 $desc-gap: 0.5rem;
 $card-w: calc(26rem + $card-gap + $desc-gap);
 $card-desc-h: calc(5rem + $desc-gap * 2);
 
+$card-w-sm: calc(22rem + $card-gap + $desc-gap);
+
 .browseByContainer {
   padding: $section-pad;
+
+  @include media-960 {
+    padding: $section-pad-tab;
+  }
 
   .browseBySliderContainer {
     padding: 3rem 0;
     margin: 2rem 0;
     width: 100%;
+    display: flex;
+    gap: 1rem;
+
+    @include media-960 {
+      padding: 1.5rem 0;
+    }
+    
+    @include media-480 {
+      padding-left: 6rem;
+    }
   }
 
   .card {
@@ -66,6 +83,11 @@ $card-desc-h: calc(5rem + $desc-gap * 2);
       .count {
         font-size: size("smallerSize");
       }
+    }
+
+    @include media-680 {
+      width: $card-w-sm;
+      height: $card-w-sm;
     }
   }
 

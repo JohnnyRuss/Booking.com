@@ -11,6 +11,7 @@ interface HeaderType {
   minPrice: HotelPriceT;
   freeCancelation: boolean;
   rating: number;
+  setOpenReserve: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const Header: React.FC<HeaderType> = ({
@@ -19,6 +20,7 @@ const Header: React.FC<HeaderType> = ({
   minPrice,
   freeCancelation,
   rating,
+  setOpenReserve,
 }) => {
   return (
     <div className={styles.hotelHeader}>
@@ -62,8 +64,10 @@ const Header: React.FC<HeaderType> = ({
         )}
       </div>
 
-      <div className={styles.headerLeftSize}>
-        <Button>reserve or book now!</Button>
+      <div className={styles.headerLeftSide}>
+        <Button onClick={() => setOpenReserve(true)}>
+          reserve or book now!
+        </Button>
         <RatingBox rating={rating} />
       </div>
     </div>

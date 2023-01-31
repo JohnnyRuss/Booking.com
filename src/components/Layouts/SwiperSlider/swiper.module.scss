@@ -1,10 +1,14 @@
 @use "../../../styles/helpers/variables/variables" as *;
 @use "../../../styles/helpers/variables/functions" as *;
+@use "../../../styles/helpers/variables/media" as *;
 
 $thumbs-h: 10rem;
+$thumbs-h-sm: 5rem;
+
 $slider-gap: 2rem;
 $slider-pad-y: 1rem;
 $main-slider-h: calc(100vh - $thumbs-h - $slider-gap - $slider-pad-y * 2);
+$main-slider-h-sm: calc(100vh - $thumbs-h-sm - $slider-gap - $slider-pad-y * 2);
 
 .swiperModal {
   position: fixed;
@@ -38,6 +42,10 @@ $main-slider-h: calc(100vh - $thumbs-h - $slider-gap - $slider-pad-y * 2);
   .mainSlider {
     width: 100%;
     height: $main-slider-h;
+
+    @include media-480 {
+      height: $main-slider-h-sm;
+    }
   }
 
   .mainSliderSlide {
@@ -61,10 +69,15 @@ $main-slider-h: calc(100vh - $thumbs-h - $slider-gap - $slider-pad-y * 2);
 
   .thumbSlider {
     height: $thumbs-h;
-    width: min($container-width, 100%);
+    max-width: min($container-width, 100%);
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @include media-480 {
+      height: $thumbs-h-sm;
+      justify-content: flex-start;
+    }
   }
 
   .thumbSlide {
@@ -72,6 +85,11 @@ $main-slider-h: calc(100vh - $thumbs-h - $slider-gap - $slider-pad-y * 2);
     width: $thumbs-h;
     height: $thumbs-h;
     aspect-ratio: 1/1;
+
+    @include media-480 {
+      height: $thumbs-h-sm;
+      min-width: $thumbs-h-sm;
+    }
 
     figure {
       width: 100%;

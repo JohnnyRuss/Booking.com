@@ -1,5 +1,6 @@
 @use "../../../../styles/helpers/variables/variables" as *;
 @use "../../../../styles/helpers/variables/functions" as *;
+@use "../../../../styles/helpers/variables/media" as *;
 
 $field-r: 0.5rem;
 
@@ -13,6 +14,11 @@ $field-r: 0.5rem;
   border-radius: 2rem;
   background: color("orangeC");
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+  @include media-680{
+    width: 100%;
+    position: unset;
+  }
 
   .asideHead {
     font-size: size("largeSize");
