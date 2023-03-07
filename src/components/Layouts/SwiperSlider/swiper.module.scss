@@ -82,13 +82,17 @@ $main-slider-h-sm: calc(100vh - $thumbs-h-sm - $slider-gap - $slider-pad-y * 2);
 
   .thumbSlide {
     cursor: pointer;
-    width: $thumbs-h;
-    height: $thumbs-h;
+    min-width: $thumbs-h;
+    max-width: $thumbs-h;
+    min-height: $thumbs-h;
+    max-height: $thumbs-h;
     aspect-ratio: 1/1;
 
     @include media-480 {
-      height: $thumbs-h-sm;
+      min-height: $thumbs-h-sm;
+      max-height: $thumbs-h-sm;
       min-width: $thumbs-h-sm;
+      max-width: $thumbs-h-sm;
     }
 
     figure {
