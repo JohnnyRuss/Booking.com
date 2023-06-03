@@ -44,9 +44,8 @@ const Description: React.FC<DescriptionType> = ({
           </span>
           <span>({daysToStay ? daysToStay : 1} night)</span>
         </span>
-        <Button onClick={() => setOpenReserve(true)}>
-          reserve or book now
-        </Button>
+        {/* <Button onClick={() => setOpenReserve(true)}> */}
+        <Button>reserve or book now</Button>
       </div>
     </div>
   );

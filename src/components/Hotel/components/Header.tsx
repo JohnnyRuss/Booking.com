@@ -65,9 +65,8 @@ const Header: React.FC<HeaderType> = ({
       </div>
 
       <div className={styles.headerLeftSide}>
-        <Button onClick={() => setOpenReserve(true)}>
-          reserve or book now!
-        </Button>
+        {/* <Button onClick={() => setOpenReserve(true)}> */}
+        <Button>reserve or book now!</Button>
         <RatingBox rating={rating} />
       </div>
     </div>

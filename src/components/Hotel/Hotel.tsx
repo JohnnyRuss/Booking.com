@@ -43,7 +43,8 @@ const Hotel: React.FC = () => {
   return (
     <div className={styles.hotel}>
       {loading && <Spinner type="absolute" />}
-      {data && !error && (
+
+      {data && !loading && !error && (
         <div className={styles.wrapper}>
           <Header
             freeCancelation={data.freeCancelation}

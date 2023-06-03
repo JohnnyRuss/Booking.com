@@ -3,6 +3,7 @@
 
 .hotel {
   position: relative;
+  min-height: 100vh;
 
   .wrapper {
     width: min($container-width, 100%);
