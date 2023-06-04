@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Navigation />
-      <Suspense fallback={<Spinner type="fixed" />}>
+      <Suspense fallback={<Spinner type="suspense" />}>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/hotels" element={<AllHotelsListPage />} />

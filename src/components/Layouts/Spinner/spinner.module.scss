@@ -41,6 +41,13 @@
     width: 100%;
     padding: 2rem;
   }
+
+  &.suspense {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+  }
 }
 
 @keyframes spin {

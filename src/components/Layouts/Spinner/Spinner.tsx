@@ -4,7 +4,7 @@ import styles from "./spinner.module.scss";
 import { ImSpinner3 } from "react-icons/im";
 
 interface SpinnerType {
-  type?: "fixed" | "absolute" | "inline";
+  type?: "fixed" | "absolute" | "inline" | "suspense";
 }
 
 const Spinner: React.FC<SpinnerType> = ({ type = "fixed" }) => {
@@ -15,6 +15,8 @@ const Spinner: React.FC<SpinnerType> = ({ type = "fixed" }) => {
           ? styles.fixed
           : type === "absolute"
           ? styles.absolute
+          : type === "suspense"
+          ? styles.suspense
           : styles.inline
       }`}
     >
